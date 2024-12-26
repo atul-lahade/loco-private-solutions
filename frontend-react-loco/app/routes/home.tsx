@@ -1,3 +1,4 @@
+import { Outlet } from "react-router";
 import Footer from "~/components/Footer";
 import NavBar from "~/components/NavBar";
 import type { Route } from "./+types/home";
@@ -13,6 +14,9 @@ export default function Home() {
   return (
     <>
       <NavBar />
+      <div className="pt-24 md:pt-16">
+        <Outlet />
+      </div>
       <Footer />
     </>
   );
