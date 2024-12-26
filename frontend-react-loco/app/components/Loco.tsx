@@ -2,7 +2,7 @@ import { NavLink } from "react-router";
 
 export default function Loco() {
     return (
-        <div className="flex-grow text-center w-full md:w-1/3 mt-0 mb-0 text-6xl font-bold text-transparent stroke-white stroke-2 tracking-widest">
+        <div className="flex-grow text-center w-full md:w-1/5 mt-0 mb-0 text-6xl font-bold text-transparent stroke-white stroke-2 tracking-widest">
             <div>
                 <NavLink
                     to="/"
