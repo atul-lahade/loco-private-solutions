@@ -8,7 +8,7 @@ export default function Loco() {
                     to="/"
                     className="cursor-pointer"
                 >
-                    <h3 className="text-[24px] md:text-[44px] font-indigo-outline text-transparent tracking-[6px] leading-[1.2] font-['Indigo_Outline',_arial,_sans-serif] stroke-white stroke-2">
+                    <h3 className="text-[32px] md:text-[52px] text-transparent tracking-[6px] leading-[1.2] stroke-white stroke-2">
                         LOCO
                     </h3>
                 </NavLink>
