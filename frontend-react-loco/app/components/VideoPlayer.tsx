@@ -2,7 +2,7 @@ import demoVideo from "../assets/videos/export-global.mp4";
 
 export default function VideoPlayer() {
     return (
-        <div className="relative bg-black w-full h-[75vh] md:h-[50vh] lg:h-[60vh] sm:mt-4 md:mt-6 lg:mt-8">
+        <div className="relative bg-black h-[65vh] md:h-[50vh] lg:h-[60vh] shadow-2xl mt-16">
             <div className="absolute inset-0 flex items-center justify-center">
                 <video
                     className="h-full object-cover rounded-lg"
@@ -27,8 +27,8 @@ export default function VideoPlayer() {
                         Providing top-notch export services for your business
                     </p>
                     <a
-                        href="#"
-                        className="px-6 py-3 bg-[#C7E9F3] text-black font-medium rounded-lg shadow-md hover:bg-white transition duration-300"
+                        href="/products"
+                        className="px-6 py-3 bg-[#6a838f] hover:bg-[#3a5662] text-whi font-medium rounded-lg shadow-md transition duration-300"
                     >
                         Get Started
                     </a>

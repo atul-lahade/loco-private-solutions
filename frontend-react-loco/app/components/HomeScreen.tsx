@@ -1,12 +1,13 @@
+import VideoPlayer from "./VideoPlayer";
 
 export default function HomeScreen() {
     return (
-        <>
-            {/* <VideoPlayer /> */}
-            <div className="container mx-4 my-6 px-6 py-10">
+        <div className="flex flex-col font-poppins min-h-screen">
+            <VideoPlayer />
+            <div className="container mx-auto my-4 px-4 sm:px-6 lg:px-8 py-8">
                 <section className="text-center">
                     <div>
-                        <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-[#799AA3]">
+                        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-[#799AA3]">
                             <span>Loco Private Solutions</span>
                             <div className="mt-2 flex justify-center">
                                 <hr aria-hidden="true" role="separator" className="border-t-2 border-gray-300 w-1/6" />
@@ -26,9 +27,9 @@ export default function HomeScreen() {
                                             </picture>
                                         </span>
                                     </div>
-                                    <h4 className="text-3xl md:text-4xl lg:text-5xl font-semibold mt-4 text-[#799AA3]">"Local Roots, Global Connections"</h4>
+                                    <h4 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold mt-4 text-[#799AA3]">"Local Roots, Global Connections"</h4>
                                     <div className="mt-4">
-                                        <p className="text-gray-700">
+                                        <p className="text-gray-700 text-base sm:text-lg md:text-xl">
                                             <span>Loco Private Solutions specializes in exporting high-quality onions, vegetables, and other fresh produce to international clients. With a focus on quality and efficiency, we navigate the complexities of global trade to deliver top-notch products tailored to our customers' needs.</span>
                                         </p>
                                     </div>
@@ -38,6 +39,6 @@ export default function HomeScreen() {
                     </div>
                 </section>
             </div>
-        </>
+        </div>
     );
 }
