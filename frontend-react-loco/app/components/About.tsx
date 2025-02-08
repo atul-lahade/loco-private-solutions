@@ -1,15 +1,15 @@
-import aboutUs from "../assets/images/about/about.png";
+import aboutImg from "../assets/images/about/about-us.png";
 import missionImg from "../assets/images/about/mission.png";
 import visionImg from "../assets/images/about/vision.png";
-import valuesImg from "../assets/images/aboutlues.png";
-import qualityImg from "../assets/images/aboutality.png";
-import reliabilityImg from "../assets/images/aboutliability.png";
-import certifiedImg from "../assets/images/aboutrtified.png";
+import valuesImg from "../assets/images/about/values.png";
+import qualityImg from "../assets/images/about/quality.png";
+import reliabilityImg from "../assets/images/about/reliability.png";
+import certifiedImg from "../assets/images/about/certified.png";
 import innovationImg from "../assets/images/about/innovation.png";
 import commitmentImg from "../assets/images/about/commitment.png";
-import sustainabilityImg from "../assets/images/aboutstainability.png";
+import sustainabilityImg from "../assets/images/about/stainability.png";
 import whoWeAreImg from "../assets/images/about/who-we-are.png";
-import whatWeDoImg from "../assets/images/aboutat-we-do.png";
+import whatWeDoImg from "../assets/images/about/what-we-do.png";
 
 import { NavLink } from "react-router";
 
@@ -31,7 +31,7 @@ export default function About() {
                                 Get Started
                             </a>
                         </div>
-                        <img className="lg:mx-0 mx-auto h-full rounded-3xl object-cover shadow-2xl" src={aboutUs} alt="about Us image" />
+                        <img className="lg:mx-0 mx-auto h-full rounded-3xl object-cover shadow-2xl" src={aboutImg} alt="about Us image" />
                     </div>
                 </div>
             </section>

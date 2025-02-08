@@ -22,25 +22,25 @@ export default function NavBar() {
                     <div className="hidden md:flex items-center space-x-4">
                         <a
                             href="/"
-                            className={`${activeLink === 'HOME' ? 'text-orange-400' : 'text-white'
+                            className={`${activeLink === 'Home' ? 'text-orange-400' : 'text-white'
                                 } hover:text-orange-400 text-lg tracking-wider`}
-                            onClick={() => handleLinkClick('HOME')}
+                            onClick={() => handleLinkClick('Home')}
                         >
                             Home
                         </a>
                         <a
                             href="/about"
-                            className={`${activeLink === 'ABOUT US' ? 'text-orange-400' : 'text-white'
+                            className={`${activeLink === 'About' ? 'text-orange-400' : 'text-white'
                                 } hover:text-orange-400 text-lg tracking-wider`}
-                            onClick={() => handleLinkClick('ABOUT US')}
+                            onClick={() => handleLinkClick('About')}
                         >
                             About
                         </a>
                         <a
                             href="/services"
-                            className={`${activeLink === 'SERVICES' ? 'text-orange-400' : 'text-white'
+                            className={`${activeLink === 'Services' ? 'text-orange-400' : 'text-white'
                                 } hover:text-orange-400 text-lg tracking-wider`}
-                            onClick={() => handleLinkClick('SERVICES')}
+                            onClick={() => handleLinkClick('Services')}
                         >
                             Services
                         </a>
@@ -51,25 +51,25 @@ export default function NavBar() {
                     <div className="hidden md:flex items-center space-x-4">
                         <a
                             href="/products"
-                            className={`${activeLink === 'PRODUCTS' ? 'text-orange-400' : 'text-white'
+                            className={`${activeLink === 'Products' ? 'text-orange-400' : 'text-white'
                                 } hover:text-orange-400 text-lg tracking-wider`}
-                            onClick={() => handleLinkClick('PRODUCTS')}
+                            onClick={() => handleLinkClick('Products')}
                         >
                             Products
                         </a>
                         <a
                             href="/testimonials"
-                            className={`${activeLink === 'TESTIMONIALS' ? 'text-orange-400' : 'text-white'
+                            className={`${activeLink === 'Testimonials' ? 'text-orange-400' : 'text-white'
                                 } hover:text-orange-400 text-lg tracking-wider`}
-                            onClick={() => handleLinkClick('TESTIMONIALS')}
+                            onClick={() => handleLinkClick('Testimonials')}
                         >
                             Testimonials
                         </a>
                         <a
                             href="/contact"
-                            className={`${activeLink === 'CONTACT US' ? 'text-orange-400' : 'text-white'
+                            className={`${activeLink === 'Contact' ? 'text-orange-400' : 'text-white'
                                 } hover:text-orange-400 text-lg tracking-wider`}
-                            onClick={() => handleLinkClick('CONTACT US')}
+                            onClick={() => handleLinkClick('Contact')}
                         >
                             Contact
                         </a>
@@ -102,49 +102,49 @@ export default function NavBar() {
                     <div className="px-4 pt-2 pb-3 space-y-1 sm:px-3">
                         <a
                             href="/"
-                            className={`block ${activeLink === 'HOME' ? 'text-orange-400' : 'text-white'
+                            className={`block ${activeLink === 'Home' ? 'text-orange-400' : 'text-white'
                                 } hover:text-orange-400 text-lg tracking-wider`}
-                            onClick={() => handleLinkClick('HOME')}
+                            onClick={() => handleLinkClick('Home')}
                         >
                             Home
                         </a>
                         <a
                             href="/about"
-                            className={`block ${activeLink === 'ABOUT US' ? 'text-orange-400' : 'text-white'
+                            className={`block ${activeLink === 'About' ? 'text-orange-400' : 'text-white'
                                 } hover:text-orange-400 text-lg tracking-wider`}
-                            onClick={() => handleLinkClick('ABOUT US')}
+                            onClick={() => handleLinkClick('About')}
                         >
                             About
                         </a>
                         <a
                             href="/services"
-                            className={`block ${activeLink === 'SERVICES' ? 'text-orange-400' : 'text-white'
+                            className={`block ${activeLink === 'Services' ? 'text-orange-400' : 'text-white'
                                 } hover:text-orange-400 text-lg tracking-wider`}
-                            onClick={() => handleLinkClick('SERVICES')}
+                            onClick={() => handleLinkClick('Services')}
                         >
                             Services
                         </a>
                         <a
                             href="/products"
-                            className={`block ${activeLink === 'PRODUCTS' ? 'text-orange-400' : 'text-white'
+                            className={`block ${activeLink === 'Products' ? 'text-orange-400' : 'text-white'
                                 } hover:text-orange-400 text-lg tracking-wider`}
-                            onClick={() => handleLinkClick('PRODUCTS')}
+                            onClick={() => handleLinkClick('Products')}
                         >
                             Products
                         </a>
                         <a
                             href="/testimonials"
-                            className={`block ${activeLink === 'TESTIMONIALS' ? 'text-orange-400' : 'text-white'
+                            className={`block ${activeLink === 'Testimonials' ? 'text-orange-400' : 'text-white'
                                 } hover:text-orange-400 text-lg tracking-wider`}
-                            onClick={() => handleLinkClick('TESTIMONIALS')}
+                            onClick={() => handleLinkClick('Testimonials')}
                         >
                             Testimonials
                         </a>
                         <a
                             href="/contact"
-                            className={`block ${activeLink === 'CONTACT US' ? 'text-orange-400' : 'text-white'
+                            className={`block ${activeLink === 'Contact' ? 'text-orange-400' : 'text-white'
                                 } hover:text-orange-400 text-lg tracking-wider`}
-                            onClick={() => handleLinkClick('CONTACT US')}
+                            onClick={() => handleLinkClick('Contact')}
                         >
                             Contact
                         </a>
