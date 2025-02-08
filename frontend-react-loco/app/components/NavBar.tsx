@@ -29,7 +29,7 @@ export default function NavBar() {
                             Home
                         </a>
                         <a
-                            href="/about-us"
+                            href="/about"
                             className={`${activeLink === 'ABOUT US' ? 'text-orange-400' : 'text-white'
                                 } hover:text-orange-400 text-lg tracking-wider`}
                             onClick={() => handleLinkClick('ABOUT US')}
@@ -66,7 +66,7 @@ export default function NavBar() {
                             Testimonials
                         </a>
                         <a
-                            href="/contact-us"
+                            href="/contact"
                             className={`${activeLink === 'CONTACT US' ? 'text-orange-400' : 'text-white'
                                 } hover:text-orange-400 text-lg tracking-wider`}
                             onClick={() => handleLinkClick('CONTACT US')}
@@ -109,7 +109,7 @@ export default function NavBar() {
                             Home
                         </a>
                         <a
-                            href="/about-us"
+                            href="/about"
                             className={`block ${activeLink === 'ABOUT US' ? 'text-orange-400' : 'text-white'
                                 } hover:text-orange-400 text-lg tracking-wider`}
                             onClick={() => handleLinkClick('ABOUT US')}
@@ -141,7 +141,7 @@ export default function NavBar() {
                             Testimonials
                         </a>
                         <a
-                            href="/contact-us"
+                            href="/contact"
                             className={`block ${activeLink === 'CONTACT US' ? 'text-orange-400' : 'text-white'
                                 } hover:text-orange-400 text-lg tracking-wider`}
                             onClick={() => handleLinkClick('CONTACT US')}

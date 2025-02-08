@@ -1,5 +1,5 @@
 import { useState } from "react";
-import contactImg from "../assets/images/contact-us.png";
+import contactImg from "../assets/images/contact.png";
 import indFlag from "../assets/images/india-flag.png";
 
 interface FormData {

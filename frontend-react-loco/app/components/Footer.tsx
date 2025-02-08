@@ -5,10 +5,10 @@ export default function Footer() {
 
                 <nav className="flex justify-center flex-wrap gap-6 text-gray-500 font-medium">
                     <a className="hover:text-gray-900" href="/">Home</a>
-                    <a className="hover:text-gray-900" href="/about-us">About Us</a>
+                    <a className="hover:text-gray-900" href="/about">About</a>
                     <a className="hover:text-gray-900" href="/services">Services</a>
                     <a className="hover:text-gray-900" href="/products">Products</a>
-                    <a className="hover:text-gray-900" href="/contact-us">Contact Us</a>
+                    <a className="hover:text-gray-900" href="/contact">Contact</a>
                 </nav>
 
                 <div className="flex justify-center space-x-5">

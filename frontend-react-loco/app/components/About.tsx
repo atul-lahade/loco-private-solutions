@@ -1,15 +1,15 @@
-import aboutUs from "../assets/images/about-us/about-us.png";
-import missionImg from "../assets/images/about-us/mission.png";
-import visionImg from "../assets/images/about-us/vision.png";
-import valuesImg from "../assets/images/about-us/values.png";
-import qualityImg from "../assets/images/about-us/quality.png";
-import reliabilityImg from "../assets/images/about-us/reliability.png";
-import certifiedImg from "../assets/images/about-us/certified.png";
-import innovationImg from "../assets/images/about-us/innovation.png";
-import commitmentImg from "../assets/images/about-us/commitment.png";
-import sustainabilityImg from "../assets/images/about-us/sustainability.png";
-import whoWeAreImg from "../assets/images/about-us/who-we-are.png";
-import whatWeDoImg from "../assets/images/about-us/what-we-do.png";
+import aboutUs from "../assets/images/about/about.png";
+import missionImg from "../assets/images/about/mission.png";
+import visionImg from "../assets/images/about/vision.png";
+import valuesImg from "../assets/images/aboutlues.png";
+import qualityImg from "../assets/images/aboutality.png";
+import reliabilityImg from "../assets/images/aboutliability.png";
+import certifiedImg from "../assets/images/aboutrtified.png";
+import innovationImg from "../assets/images/about/innovation.png";
+import commitmentImg from "../assets/images/about/commitment.png";
+import sustainabilityImg from "../assets/images/aboutstainability.png";
+import whoWeAreImg from "../assets/images/about/who-we-are.png";
+import whatWeDoImg from "../assets/images/aboutat-we-do.png";
 
 import { NavLink } from "react-router";
 
