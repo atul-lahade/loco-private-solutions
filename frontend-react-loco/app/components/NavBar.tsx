@@ -23,7 +23,7 @@ export default function NavBar() {
                         <NavLink
                             to="/"
                             className={`${activeLink === 'Home' ? 'text-orange-300' : 'text-white'
-                                } hover:text-orange-300 text-lg transition delay-100 duration-300 ease-in-out hover:scale-110`}
+                                } hover:text-orange-300 text-lg tracking-widest transition delay-100 duration-300 ease-in-out hover:scale-110`}
                             onClick={() => handleLinkClick('Home')}
                         >
                             Home
@@ -31,7 +31,7 @@ export default function NavBar() {
                         <NavLink
                             to="/about"
                             className={`${activeLink === 'About' ? 'text-orange-300' : 'text-white'
-                                } hover:text-orange-300 text-lg transition delay-100 duration-300 ease-in-out hover:scale-110`}
+                                } hover:text-orange-300 text-lg tracking-widest transition delay-100 duration-300 ease-in-out hover:scale-110`}
                             onClick={() => handleLinkClick('About')}
                         >
                             About
@@ -39,7 +39,7 @@ export default function NavBar() {
                         <NavLink
                             to="/services"
                             className={`${activeLink === 'Services' ? 'text-orange-300' : 'text-white'
-                                } hover:text-orange-300 text-lg transition delay-100 duration-300 ease-in-out hover:scale-110`}
+                                } hover:text-orange-300 text-lg tracking-widest transition delay-100 duration-300 ease-in-out hover:scale-110`}
                             onClick={() => handleLinkClick('Services')}
                         >
                             Services
@@ -52,7 +52,7 @@ export default function NavBar() {
                         <NavLink
                             to="/products"
                             className={`${activeLink === 'Products' ? 'text-orange-300' : 'text-white'
-                                } hover:text-orange-300 text-lg transition delay-100 duration-300 ease-in-out hover:scale-110`}
+                                } hover:text-orange-300 text-lg tracking-widest transition delay-100 duration-300 ease-in-out hover:scale-110`}
                             onClick={() => handleLinkClick('Products')}
                         >
                             Products
@@ -60,7 +60,7 @@ export default function NavBar() {
                         <NavLink
                             to="/testimonials"
                             className={`${activeLink === 'Testimonials' ? 'text-orange-300' : 'text-white'
-                                } hover:text-orange-300 text-lg transition delay-100 duration-300 ease-in-out hover:scale-110`}
+                                } hover:text-orange-300 text-lg tracking-widest transition delay-100 duration-300 ease-in-out hover:scale-110`}
                             onClick={() => handleLinkClick('Testimonials')}
                         >
                             Testimonials
@@ -68,7 +68,7 @@ export default function NavBar() {
                         <NavLink
                             to="/contact"
                             className={`${activeLink === 'Contact' ? 'text-orange-300' : 'text-white'
-                                } hover:text-orange-300 text-lg transition delay-100 duration-300 ease-in-out hover:scale-110`}
+                                } hover:text-orange-300 text-lg tracking-widest transition delay-100 duration-300 ease-in-out hover:scale-110`}
                             onClick={() => handleLinkClick('Contact')}
                         >
                             Contact
@@ -104,7 +104,7 @@ export default function NavBar() {
                         <NavLink
                             to="/"
                             className={`block ${activeLink === 'Home' ? 'text-orange-300' : 'text-white'
-                                } hover:text-orange-300 text-lg transition delay-100 duration-300 ease-in-out hover:scale-110`}
+                                } hover:text-orange-300 text-lg tracking-wider transition delay-100 duration-300 ease-in-out hover:scale-110`}
                             onClick={() => handleLinkClick('Home')}
                         >
                             Home
@@ -112,7 +112,7 @@ export default function NavBar() {
                         <NavLink
                             to="/about"
                             className={`block ${activeLink === 'About' ? 'text-orange-300' : 'text-white'
-                                } hover:text-orange-300 text-lg transition delay-100 duration-300 ease-in-out hover:scale-110`}
+                                } hover:text-orange-300 text-lg tracking-wider transition delay-100 duration-300 ease-in-out hover:scale-110`}
                             onClick={() => handleLinkClick('About')}
                         >
                             About
@@ -120,7 +120,7 @@ export default function NavBar() {
                         <NavLink
                             to="/services"
                             className={`block ${activeLink === 'Services' ? 'text-orange-300' : 'text-white'
-                                } hover:text-orange-300 text-lg transition delay-100 duration-300 ease-in-out hover:scale-110`}
+                                } hover:text-orange-300 text-lg tracking-wider transition delay-100 duration-300 ease-in-out hover:scale-110`}
                             onClick={() => handleLinkClick('Services')}
                         >
                             Services
@@ -128,7 +128,7 @@ export default function NavBar() {
                         <NavLink
                             to="/products"
                             className={`block ${activeLink === 'Products' ? 'text-orange-300' : 'text-white'
-                                } hover:text-orange-300 text-lg transition delay-100 duration-300 ease-in-out hover:scale-110`}
+                                } hover:text-orange-300 text-lg tracking-wider transition delay-100 duration-300 ease-in-out hover:scale-110`}
                             onClick={() => handleLinkClick('Products')}
                         >
                             Products
@@ -136,7 +136,7 @@ export default function NavBar() {
                         <NavLink
                             to="/testimonials"
                             className={`block ${activeLink === 'Testimonials' ? 'text-orange-300' : 'text-white'
-                                } hover:text-orange-300 text-lg transition delay-100 duration-300 ease-in-out hover:scale-110`}
+                                } hover:text-orange-300 text-lg tracking-wider transition delay-100 duration-300 ease-in-out hover:scale-110`}
                             onClick={() => handleLinkClick('Testimonials')}
                         >
                             Testimonials
@@ -144,7 +144,7 @@ export default function NavBar() {
                         <NavLink
                             to="/contact"
                             className={`block ${activeLink === 'Contact' ? 'text-orange-300' : 'text-white'
-                                } hover:text-orange-300 text-lg transition delay-100 duration-300 ease-in-out hover:scale-110`}
+                                } hover:text-orange-300 text-lg tracking-wider transition delay-100 duration-300 ease-in-out hover:scale-110`}
                             onClick={() => handleLinkClick('Contact')}
                         >
                             Contact
