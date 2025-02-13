@@ -16,24 +16,23 @@ export default function ContactUs() {
     });
 
     const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-        const { name, value } = e.target;
+        const { name, value } = e.target;        
         setFormData((prevState) => ({
             ...prevState,
             [name]: value,
         }));
     };
 
-    const handleSubmit = () => {
-        console.log('Form Submitted:', formData);
+    function handleSubmit(event: React.MouseEvent<HTMLButtonElement, MouseEvent>): void {
+        event.preventDefault();
         var message = `Hello! I am ${formData.fullName} (${formData.email}). ${formData.message}`;
         let url = `https://api.whatsapp.com/send/?phone=918793552829`;
-
         // Appending the message to the URL by encoding it
         url += `&text=${encodeURI(message)}&app_absent=0`;
-
         // Open our newly created URL in a new tab to send the message
         window.open(url);
-    };
+    }
+
     return (
         <section className="max-w-7xl mx-auto px-16 mt-16">
             <div className="text-center my-10 px-4 md:px-0">
@@ -64,18 +63,18 @@ export default function ContactUs() {
                 </div>
 
                 <div className="flex items-center justify-center">
-                    <img src={contactImg} alt="Global Exports and Logistics" className="rounded-lg shadow-2xl w-full" />
+                    <img src={contactImg} alt="Global Exports and Logistics" className="rounded-lg shadow-2xl w-full transition-transform duration-300 transform hover:scale-110" />
                 </div>
             </div>
             <div className="w-full text-black">
                 <div className="container flex flex-col items-center gap-4 mx-auto my-16">
-                    <div className="grid items-center grid-cols-1 gap-16 lg:grid-cols-2">
+                    <div className="grid items-center grid-cols-1 gap-4 lg:grid-cols-2">
                         <div className="flex flex-col gap-16">
                             <div className="flex flex-col w-10/12 gap-2 text-center mx-auto md:text-start md:ml-0">
                                 <h3 className="text-4xl font-extrabold text-[#799AA3] font-display">Contact Us Today</h3>
                                 <p className="text-base font-medium leading-7 text-gray-600">Don't hesitate to reach out if you have any questions or need assistance. We're here to help with all your needs.</p>
                             </div>
-                            <div className="grid w-full grid-cols-2 gap-x-5 gap-y-16">
+                            <div className="grid w-full grid-cols-2 gap-24">
                                 <div className="flex flex-col items-center gap-3 text-center md:text-start md:items-start">
                                     <span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
@@ -83,7 +82,7 @@ export default function ContactUs() {
                                         </svg>
                                     </span>
                                     <h3 className="text-2xl font-extrabold text-[#799AA3] font-display">Email</h3>
-                                    <a className="text-lg font-bold text-gray-600 break-words" href="mailto: locoprivatesolutions@gmail.com">locoprivatesolutions@gmail.com</a>
+                                    <a className="text-lg font-bold text-gray-600 break-words" href="mailto:locoprivatesolutions@gmail.com">locoprivatesolutions@gmail.com</a>
                                 </div>
                                 <div className="flex flex-col items-center gap-3 text-center md:text-start md:items-start">
                                     <span>
@@ -116,22 +115,24 @@ export default function ContactUs() {
                         </div>
                         <div className="flex flex-col gap-5 p-6 bg-white rounded-3xl shadow-main md:p-10">
                             <h3 className="text-4xl font-extrabold text-dark-grey-900 font-display  text-[#799AA3] font-display">Send a message</h3>
-                            <form className="flex flex-col gap-6">
+                            <div className="flex flex-col gap-6">
                                 <label className="flex flex-col gap-2 text-sm font-medium text-dark-grey-600">
                                     Full Name
-                                    <input className="p-4 border border-solid outline-none rounded-xl placeholder:text-sm placeholder:font-medium placeholder:text-dark-grey-500 border-grey-300 focus:border-grey-600 focus:ring-2 focus:ring-grey-600 bg-white shadow-md" placeholder="Your full name" type="text" id="full-name" onChange={handleInputChange} defaultValue={formData.fullName} required />
+                                    <input className="p-4 border border-solid outline-none rounded-xl placeholder:text-sm placeholder:font-medium placeholder:text-dark-grey-500 border-grey-300 focus:border-grey-600 focus:ring-2 focus:ring-grey-600 bg-white shadow-md" placeholder="Your full name" type="text" id="full-name"
+                                    name="fullName" 
+                                    onChange={handleInputChange} defaultValue={formData.fullName} required />
                                 </label>
                                 <label className="flex flex-col gap-2 text-sm font-medium text-dark-grey-600">
                                     Your Email
-                                    <input className="p-4 border border-solid outline-none rounded-xl placeholder:text-sm placeholder:font-medium placeholder:text-dark-grey-500 border-grey-300 focus:border-grey-600 focus:ring-2 focus:ring-grey-600 bg-white shadow-md" placeholder="Your email address" type="text" id="email" onChange={handleInputChange} defaultValue={formData.email} required />
+                                    <input className="p-4 border border-solid outline-none rounded-xl placeholder:text-sm placeholder:font-medium placeholder:text-dark-grey-500 border-grey-300 focus:border-grey-600 focus:ring-2 focus:ring-grey-600 bg-white shadow-md" placeholder="Your email address" type="text" id="email"
+                                    name="email" onChange={handleInputChange} defaultValue={formData.email} required />
                                 </label>
                                 <label className="flex flex-col gap-2 text-sm font-medium text-dark-grey-600">
                                     Message
-                                    <textarea className="p-4 border border-solid outline-none rounded-xl placeholder:text-sm placeholder:font-medium placeholder:text-dark-grey-500 border-grey-300 focus:border-grey-600 focus:ring-2 focus:ring-grey-600 bg-white shadow-md" placeholder="Your message" id="message" onChange={handleInputChange}
-                                        defaultValue={formData.message} required></textarea>
+                                    <textarea className="p-4 border border-solid outline-none rounded-xl placeholder:text-sm placeholder:font-medium placeholder:text-dark-grey-500 border-grey-300 focus:border-grey-600 focus:ring-2 focus:ring-grey-600 bg-white shadow-md" placeholder="Your message" id="message" name="message" onChange={handleInputChange} defaultValue={formData.message} required></textarea>
                                 </label>
-                                <button type="submit" className="flex items-center justify-center py-4 text-center text-white px-7 rounded-2xl bg-[#6a838f] hover:bg-[#3a5662] focus:ring-4 focus:ring-purple-blue-100 transition duration-300" onSubmit={handleSubmit}>Submit message</button>
-                            </form>
+                                <button type="button" className="flex items-center justify-center py-4 text-center text-white px-7 rounded-2xl bg-[#6a838f] hover:bg-[#3a5662] focus:ring-4 focus:ring-purple-blue-100 transition duration-300" onClick={handleSubmit}>Submit message</button>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -29,7 +29,7 @@ export default function About() {
                                 Get Started
                             </a>
                         </div>
-                        <img className="lg:mx-0 mx-auto h-full rounded-3xl object-cover shadow-2xl" src={aboutImg} alt="about Us image" />
+                        <img className="lg:mx-0 mx-auto h-full rounded-3xl object-cover shadow-2xl transition-transform duration-300 transform hover:scale-110" src={aboutImg} alt="about Us image" />
                     </div>
                 </div>
             </section>

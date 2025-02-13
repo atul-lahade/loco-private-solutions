@@ -1,9 +1,9 @@
-import { reactRouter } from "@react-router/dev/vite";
-import autoprefixer from "autoprefixer";
-import tailwindcss from "tailwindcss";
-import { defineConfig } from "vite";
-import tsconfigPaths from "vite-tsconfig-paths";
-import react from '@vitejs/plugin-react';
+import reactRefresh from '@vitejs/plugin-react-refresh';
+import { defineConfig } from 'vite';
+import tsconfigPaths from 'vite-tsconfig-paths';
+import tailwindcss from 'tailwindcss';
+import autoprefixer from 'autoprefixer';
+import { reactRouter } from '@react-router/dev/vite';
 
 export default defineConfig({
   css: {
@@ -11,7 +11,11 @@ export default defineConfig({
       plugins: [tailwindcss, autoprefixer],
     },
   },
-  plugins: [react(), reactRouter(), tsconfigPaths()],
+  plugins: [
+    reactRouter(), 
+    tsconfigPaths(), 
+    reactRefresh(),
+  ],
   build: {
     outDir: 'dist', // Output folder for production build
     sourcemap: false, // Disable source maps for production
