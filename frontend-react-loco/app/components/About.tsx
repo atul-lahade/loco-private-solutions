@@ -7,11 +7,9 @@ import reliabilityImg from "../assets/images/about/reliability.png";
 import certifiedImg from "../assets/images/about/certified.png";
 import innovationImg from "../assets/images/about/innovation.png";
 import commitmentImg from "../assets/images/about/commitment.png";
-import sustainabilityImg from "../assets/images/about/stainability.png";
+import sustainabilityImg from "../assets/images/about/sustainability.png";
 import whoWeAreImg from "../assets/images/about/who-we-are.png";
 import whatWeDoImg from "../assets/images/about/what-we-do.png";
-
-import { NavLink } from "react-router";
 
 export default function About() {
     return (

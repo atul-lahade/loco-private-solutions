@@ -8,7 +8,7 @@ export default function Services() {
     return (
         <div className="flex flex-col min-h-screen font-inter mt-12 md:mt-16 lg:mt-20">
             <div className="flex-grow flex relative justify-center items-center">
-                <div className="container pb-12 lg:pb-36">
+                <div className="container pb-24 sm:pb-24 lg:pb-36">
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 m-16 gap-x-8 gap-40 md:gap-y-48 lg:gap-y-40">
                         <div className="relative cursor-pointer group">
                             <div className="overflow-hidden rounded-2xl">
