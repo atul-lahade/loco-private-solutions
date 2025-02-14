@@ -1,6 +1,6 @@
-import { useState } from "react";
 import contactImg from "../assets/images/contact.png";
 import indFlag from "../assets/images/india-flag.png";
+import { useState } from "react";
 
 interface FormData {
     fullName: string;
@@ -61,7 +61,6 @@ export default function ContactUs() {
                         <a className="text-black" href="tel:+919890533525">+91 9890533525</a>
                     </div>
                 </div>
-
                 <div className="flex items-center justify-center">
                     <img src={contactImg} alt="Global Exports and Logistics" className="rounded-lg shadow-2xl w-full transition-transform duration-300 transform hover:scale-110" />
                 </div>

@@ -1,8 +1,7 @@
+import bgImg from '../assets/images/testimonial-bg.jpg';
 import reviewFirst from '../assets/images/review-1.webp';
 import reviewSecond from '../assets/images/review-2.webp';
 import reviewThird from '../assets/images/review-3.webp';
-import bgImg from '../assets/images/testimonial-bg.jpg';
-
 
 export default function Testimonials() {
     return (

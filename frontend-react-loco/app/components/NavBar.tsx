@@ -1,6 +1,6 @@
 import Loco from "./Loco";
-import { useState } from "react";
 import { NavLink } from "react-router";
+import { useState } from "react";
 
 export default function NavBar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -97,7 +97,7 @@ export default function NavBar() {
                         </button>
                     </div>
                 </div>
-            </div>
+            </div> 
             {isMenuOpen && (
                 <div className="md:hidden bg-black">
                     <div className="px-4 pt-2 pb-3 space-y-1 sm:px-3">

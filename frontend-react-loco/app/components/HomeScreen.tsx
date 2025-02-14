@@ -1,10 +1,11 @@
+import { ImageSlider } from "./ImageSlider";
 import VideoPlayer from "./VideoPlayer";
 
 export default function HomeScreen() {
-    return (
+    return ( 
         <div className="flex flex-col font-poppins min-h-screen">
             <VideoPlayer />
-            <div className="container mx-auto my-4 px-4 sm:px-6 lg:px-8 py-8">
+            <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-6 lg:py-8">
                 <section className="text-center">
                     <div>
                         <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-[#799AA3]">
@@ -39,6 +40,7 @@ export default function HomeScreen() {
                     </div>
                 </section>
             </div>
+            <ImageSlider />
         </div>
     );
 }

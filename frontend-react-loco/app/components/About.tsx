@@ -1,15 +1,15 @@
 import aboutImg from "../assets/images/about/about-us.png";
+import certifiedImg from "../assets/images/about/certified.png";
+import commitmentImg from "../assets/images/about/commitment.png";
+import innovationImg from "../assets/images/about/innovation.png";
 import missionImg from "../assets/images/about/mission.png";
-import visionImg from "../assets/images/about/vision.png";
-import valuesImg from "../assets/images/about/values.png";
 import qualityImg from "../assets/images/about/quality.png";
 import reliabilityImg from "../assets/images/about/reliability.png";
-import certifiedImg from "../assets/images/about/certified.png";
-import innovationImg from "../assets/images/about/innovation.png";
-import commitmentImg from "../assets/images/about/commitment.png";
 import sustainabilityImg from "../assets/images/about/sustainability.png";
-import whoWeAreImg from "../assets/images/about/who-we-are.png";
+import valuesImg from "../assets/images/about/values.png";
+import visionImg from "../assets/images/about/vision.png";
 import whatWeDoImg from "../assets/images/about/what-we-do.png";
+import whoWeAreImg from "../assets/images/about/who-we-are.png";
 
 export default function About() {
     return (

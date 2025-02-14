@@ -1,4 +1,3 @@
-
 type ProductProps = {
     id: number;
     title: string;
