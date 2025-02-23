@@ -4,8 +4,10 @@ import businessImg from '../assets/images/services/business-consultancy.webp';
 import educationImg from '../assets/images/services/education.webp';
 import itImg from '../assets/images/services/it-consulting.webp';
 import marketImg from '../assets/images/services/market-research.webp';
+import { useTranslation } from 'react-i18next';
 
 export default function Services() {
+    const { t } = useTranslation(['home']);
     return (
         <div className="flex flex-col min-h-screen font-inter mt-12 md:mt-16 lg:mt-20">
             <div className="flex-grow flex relative justify-center items-center">
@@ -21,10 +23,10 @@ export default function Services() {
                                         <div className="group-hover:bg-[#799AA3] text-center w-72 lg:w-96 px-4 lg:px-5 py-7 lg:py-10 group-hover:text-white text-black bg-white shadow-xl rounded-b-2xl transition duration-300 ease-in-out">
                                             <div className="relative inline-block">
                                                 <h2 className="text-xl md:text-2xl font-bold before:absolute before:w-4 before:h-0.5 group-hover:before:w-full before:transition-all 
-                                            before:bg-white before:bottom-0 before:duration-500 before:ease-in-out inline-block">Marketing Research Reports
+                                            before:bg-white before:bottom-0 before:duration-500 before:ease-in-out inline-block">{t("services.service_1.heading")}
                                                 </h2>
                                             </div>
-                                            <p className="text-sm md:text-base pt-5">Insights-driven reports offering comprehensive market analysis, trends, and forecasts to empower informed decision-making.</p>
+                                            <p className="text-sm md:text-base pt-5">{t("services.service_1.desc")}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -39,10 +41,10 @@ export default function Services() {
                                     <div className="relative">
                                         <div className="group-hover:bg-[#799AA3] text-center w-72 lg:w-96 px-4 lg:px-5 py-7 lg:py-10 group-hover:text-white text-black bg-white shadow-xl rounded-b-2xl transition duration-300 ease-in-out">
                                             <div className="relative inline-block">
-                                                <h2 className="text-xl md:text-2xl font-bold before:absolute before:w-4 before:h-0.5 group-hover:before:w-full before:transition-all before:bg-white before:bottom-0 before:duration-500 before:ease-in-out inline-block">Business Consultancy
+                                                <h2 className="text-xl md:text-2xl font-bold before:absolute before:w-4 before:h-0.5 group-hover:before:w-full before:transition-all before:bg-white before:bottom-0 before:duration-500 before:ease-in-out inline-block">{t("services.service_2.heading")}
                                                 </h2>
                                             </div>
-                                            <p className="text-sm md:text-base pt-5">Expert guidance in business strategy, growth planning, and operational efficiency to drive sustainable success. </p>
+                                            <p className="text-sm md:text-base pt-5">{t("services.service_2.desc")}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -57,9 +59,9 @@ export default function Services() {
                                     <div className="relative">
                                         <div className="group-hover:bg-[#799AA3] text-center w-72 lg:w-96 px-4 lg:px-5 py-7 lg:py-10 group-hover:text-white text-black bg-white shadow-xl rounded-b-2xl transition duration-300 ease-in-out">
                                             <div className="relative inline-block">
-                                                <h2 className="text-xl md:text-2xl font-bold before:absolute before:w-4 before:h-0.5 group-hover:before:w-full before:transition-all before:bg-white before:bottom-0 before:duration-500 before:ease-in-out inline-block">Ayurvedic Consultancy</h2>
+                                                <h2 className="text-xl md:text-2xl font-bold before:absolute before:w-4 before:h-0.5 group-hover:before:w-full before:transition-all before:bg-white before:bottom-0 before:duration-500 before:ease-in-out inline-block">{t("services.service_3.heading")}</h2>
                                             </div>
-                                            <p className="text-sm md:text-base pt-5">Personalized Ayurvedic health solutions by highly experienced Ayurveda doctors, blending ancient wisdom with modern expertise.</p>
+                                            <p className="text-sm md:text-base pt-5">{t("services.service_3.desc")}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -74,9 +76,9 @@ export default function Services() {
                                     <div className="relative">
                                         <div className="group-hover:bg-[#799AA3] text-center w-72 lg:w-96 px-4 lg:px-5 py-7 lg:py-10 group-hover:text-white text-black bg-white shadow-xl rounded-b-2xl transition duration-300 ease-in-out">
                                             <div className="relative inline-block">
-                                                <h2 className="text-xl md:text-2xl font-bold before:absolute before:w-4 before:h-0.5 group-hover:before:w-full before:transition-all before:bg-white before:bottom-0 before:duration-500 before:ease-in-out inline-block">Education Services</h2>
+                                                <h2 className="text-xl md:text-2xl font-bold before:absolute before:w-4 before:h-0.5 group-hover:before:w-full before:transition-all before:bg-white before:bottom-0 before:duration-500 before:ease-in-out inline-block">{t("services.service_4.heading")}</h2>
                                             </div>
-                                            <p className="text-sm md:text-base pt-5">Tailored programs for learning enhancement, skill development, and academic success, designed by experienced educators.</p>
+                                            <p className="text-sm md:text-base pt-5">{t("services.service_4.desc")}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -91,9 +93,9 @@ export default function Services() {
                                     <div className="relative">
                                         <div className="group-hover:bg-[#799AA3] text-center w-72 lg:w-96 px-4 lg:px-5 py-7 lg:py-10 group-hover:text-white text-black bg-white shadow-xl rounded-b-2xl transition duration-300 ease-in-out">
                                             <div className="relative inline-block">
-                                                <h2 className="text-xl md:text-2xl font-bold before:absolute before:w-4 before:h-0.5 group-hover:before:w-full before:transition-all before:bg-white before:bottom-0 before:duration-500 before:ease-in-out inline-block">IT Consulting</h2>
+                                                <h2 className="text-xl md:text-2xl font-bold before:absolute before:w-4 before:h-0.5 group-hover:before:w-full before:transition-all before:bg-white before:bottom-0 before:duration-500 before:ease-in-out inline-block">{t("services.service_5.heading")}</h2>
                                             </div>
-                                            <p className="text-sm md:text-base pt-5">Innovative technology solutions for digital transformation, IT strategy, and infrastructure optimization to boost business efficiency.</p>
+                                            <p className="text-sm md:text-base pt-5">{t("services.service_5.desc")}</p>
                                         </div>
                                     </div>
                                 </div>

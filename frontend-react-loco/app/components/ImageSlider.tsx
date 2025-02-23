@@ -1,9 +1,12 @@
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { culinaryProducts, decorProducts, spicesProducts, vegetableProducts } from "~/utils";
 import { useEffect, useState } from "react";
+
 import { NavLink } from "react-router";
+import { useTranslation } from "react-i18next";
 
 export function ImageSlider() {
+  const { t } = useTranslation(['home']);
   const slides = [
     ...vegetableProducts.map(product => ({ title: product.title, url: product.image })),
     ...culinaryProducts.map(product => ({ title: product.title, url: product.image })),

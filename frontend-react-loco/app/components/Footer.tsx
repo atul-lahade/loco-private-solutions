@@ -1,14 +1,17 @@
+import { useTranslation } from "react-i18next";
+
 export default function Footer() {
+    const { t } = useTranslation(['home']);
     return (
         <>
             <footer className="flex flex-col space-y-10 justify-center border-t border-slate-900/5 py-10 bg-gradient-to-br from-[#FFFEFF] to-gray-300">
 
                 <nav className="flex justify-center flex-wrap gap-6 text-gray-500 font-medium">
-                    <a className="hover:text-gray-900 transition delay-100 duration-100 ease-in-out hover:scale-110" href="/">Home</a>
-                    <a className="hover:text-gray-900 transition delay-100 duration-100 ease-in-out hover:scale-110" href="/about">About</a>
-                    <a className="hover:text-gray-900 transition delay-100 duration-100 ease-in-out hover:scale-110" href="/services">Services</a>
-                    <a className="hover:text-gray-900 transition delay-100 duration-100 ease-in-out hover:scale-110" href="/products">Products</a>
-                    <a className="hover:text-gray-900 transition delay-100 duration-100 ease-in-out hover:scale-110" href="/contact">Contact</a>
+                    <a className="hover:text-gray-900 transition delay-100 duration-100 ease-in-out hover:scale-110" href="/">{t("navbar.home")}</a>
+                    <a className="hover:text-gray-900 transition delay-100 duration-100 ease-in-out hover:scale-110" href="/about">{t("navbar.about")}</a>
+                    <a className="hover:text-gray-900 transition delay-100 duration-100 ease-in-out hover:scale-110" href="/services">{t("navbar.services")}</a>
+                    <a className="hover:text-gray-900 transition delay-100 duration-100 ease-in-out hover:scale-110" href="/products">{t("navbar.products")}</a>
+                    <a className="hover:text-gray-900 transition delay-100 duration-100 ease-in-out hover:scale-110" href="/contact">{t("navbar.contact")}</a>
                 </nav>
 
                 <div className="flex justify-center space-x-5">

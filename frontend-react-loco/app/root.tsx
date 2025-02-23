@@ -6,6 +6,7 @@ import {
   ScrollRestoration,
   isRouteErrorResponse,
 } from "react-router";
+import "./i18n.tsx";
 
 import type { Route } from "./+types/root";
 import stylesheet from "./assets/css/app.css?url";

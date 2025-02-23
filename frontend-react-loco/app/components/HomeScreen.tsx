@@ -1,15 +1,17 @@
 import { ImageSlider } from "./ImageSlider";
 import VideoPlayer from "./VideoPlayer";
+import { useTranslation } from "react-i18next";
 
 export default function HomeScreen() {
-    return ( 
+    const { t } = useTranslation(['home']);
+    return (
         <div className="flex flex-col font-poppins min-h-screen">
             <VideoPlayer />
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-6 lg:py-8">
                 <section className="text-center">
                     <div>
                         <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-[#799AA3]">
-                            <span>Loco Private Solutions</span>
+                            <span>{t("home.companyName")}</span>
                             <div className="mt-2 flex justify-center">
                                 <hr aria-hidden="true" role="separator" className="border-t-2 border-gray-300 w-1/6" />
                             </div>
@@ -28,10 +30,10 @@ export default function HomeScreen() {
                                             </picture>
                                         </span>
                                     </div>
-                                    <h4 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold mt-4 text-[#799AA3]">"Local Roots, Global Connections"</h4>
+                                    <h4 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold mt-4 text-[#799AA3]">{t("home.companySlogan")}</h4>
                                     <div className="mt-4">
                                         <p className="text-gray-700 text-base sm:text-lg md:text-xl">
-                                            <span>At Loco Private Solutions, we are committed to bridging the gap between local producers and global markets. Our mission is to empower local communities by exporting high-quality, sustainable products while solving global supply chain challenges.</span>
+                                            <span>{t("home.companyDescription")}</span>
                                         </p>
                                     </div>
                                 </div>

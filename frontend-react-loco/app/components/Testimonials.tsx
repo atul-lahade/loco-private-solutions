@@ -2,8 +2,10 @@ import bgImg from '../assets/images/testimonial-bg.jpg';
 import reviewFirst from '../assets/images/review-1.webp';
 import reviewSecond from '../assets/images/review-2.webp';
 import reviewThird from '../assets/images/review-3.webp';
+import { useTranslation } from 'react-i18next';
 
 export default function Testimonials() {
+    const { t } = useTranslation(['home']);
     return (
         <section className="bg-white bg-cover bg-center w-full h-full min-h-[74vh] mt-20" style={{ backgroundImage: `url(${bgImg})` }}>
             <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
@@ -71,12 +73,12 @@ export default function Testimonials() {
                                         />
                                     </svg>
                                 </div>
-                                <p className="mt-0.5 text-lg font-medium text-gray-900">GreenHarvest Imports, USA</p>
+                                <p className="mt-0.5 text-lg font-medium text-gray-900">{t("testimonial.review_1.company_name")}</p>
                             </div>
                         </div>
 
                         <p className="mt-4 text-gray-700">
-                            We’ve been importing red onions and garlic from LOCO Pvt for over a year, and their freshness and quality never disappoint. A reliable supplier for all our needs!
+                        {t("testimonial.review_1.review")}
                         </p>
                     </blockquote>
                     <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
@@ -139,11 +141,11 @@ export default function Testimonials() {
                                         />
                                     </svg>
                                 </div>
-                                <p className="mt-0.5 text-lg font-medium text-gray-900">SpiceRoutes Foods, Canada</p>
+                                <p className="mt-0.5 text-lg font-medium text-gray-900">{t("testimonial.review_2.company_name")}</p>
                             </div>
                         </div>
                         <p className="mt-4 text-gray-700">
-                            The quality of their pickle shallots and podisu shallots is outstanding. Consistent, timely deliveries, and excellent customer service. Highly recommended!
+                        {t("testimonial.review_2.review")}
                         </p>
                     </blockquote>
                     <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
@@ -206,11 +208,11 @@ export default function Testimonials() {
                                         />
                                     </svg>
                                 </div>
-                                <p className="mt-0.5 text-lg font-medium text-gray-900">EuroFresh Trading, Spain</p>
+                                <p className="mt-0.5 text-lg font-medium text-gray-900">{t("testimonial.review_3.company_name")}</p>
                             </div>
                         </div>
                         <p className="mt-4 text-gray-700">
-                            From red onions to garlic, every product we’ve received has been perfectly packed and fresh. LCOC Exports makes our supply chain smooth and dependable!
+                        {t("testimonial.review_3.review")}
                         </p>
                     </blockquote>
                 </div>

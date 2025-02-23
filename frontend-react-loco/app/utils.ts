@@ -16,11 +16,11 @@ import pineapplePieces from "./assets/images/products/pineapple-pieces.jpeg";
 import plasticFlower from "./assets/images/products/palstic-flower.jpeg";
 import podisuShallots from "./assets/images/products/podisu-shallots.jpeg";
 import potatoes from "./assets/images/products/potatoes.jpeg";
+import powderWax from "./assets/images/products/powder-wax.png";
 import redOnion from "./assets/images/products/red-onion.jpeg";
 import tomatoPeel from "./assets/images/products/tomato-peel.jpeg";
 import tomatoPuree from "./assets/images/products/tomato-puree.jpeg";
 import whiteOnion from "./assets/images/products/white-onion.jpeg";
-import powderWax from "./assets/images/products/powder-wax.png";
 
 export const workingHours = [
     { day: "Monday", open: "9:00 AM", close: "5:00 PM" },
@@ -34,46 +34,39 @@ export const workingHours = [
 
 export const vegetableProducts = [
   {
-    title: "Red Onion",
+    title: "products.category_1.product_1.heading",
     image: redOnion,
-    description:
-      "Red Onions from India are known for their vibrant color, crisp texture, and bold flavor. Rich in antioxidants, vitamins, and minerals, they’re perfect for cooking, salads, and garnishing. Carefully packed for global export, ensuring freshness and premium quality.",
+    description: "products.category_1.product_1.desc",
   },
   {
-    title: "Pickle Shallots",
+    title: "products.category_1.product_2.heading",
     image: pickleShallots,
-    description:
-      "Pickle Shallots from India are carefully selected for their small size, crunchy texture, and tangy flavor. Expertly pickled to preserve freshness and quality, rich in vitamins and antioxidants. Packed in export-friendly packaging, ensuring long shelf life and superior quality.",
+    description: "products.category_1.product_2.desc",
   },
   {
-    title: "Podisu Shallots",
+    title: "products.category_1.product_3.heading",
     image: podisuShallots,
-    description:
-      "Podisu Shallots are premium-quality Indian shallots, known for their rich flavor, mild sweetness, and distinctive aroma. Grown naturally, they pass strict quality checks for freshness and durability. Ideal for sautéing, roasting, and pickling, they are packed for global export.",
+    description:"products.category_1.product_3.desc",
   },
   {
-    title: "Ginger",
+    title: "products.category_1.product_4.heading",
     image: ginger,
-    description:
-      "Indian ginger is known for its pungent aroma, spicy flavor, and premium quality. Grown in fertile soils and rigorously tested for freshness and consistency, it's rich in antioxidants, vitamins, and minerals. Ideal for culinary use, juices, and remedies, it comes in export packaging for long shelf life. ",
+    description:"products.category_1.product_4.desc",
   },
   {
-    title: "Garlic",
+    title: "products.category_1.product_5.heading",
     image: garlic,
-    description:
-      "Indian Garlic is renowned for its strong flavor, rich aroma, and high potency. Packed with antioxidants, vitamins, and minerals, it offers numerous health benefits. Perfect for cooking, seasoning, and medicinal use, it comes in export packaging ensuring freshness and long shelf life. ",
+    description: "products.category_1.product_5.desc",
   },
   {
-    title: "White Onion",
+    title: "products.category_1.product_6.heading",
     image: whiteOnion,
-    description:
-      " White Onions from India offer a mild flavor, crisp texture, and smooth, white skin. Carefully harvested and quality-checked for freshness and uniform size, they're rich in vitamins, antioxidants, and minerals. Perfect for raw, cooking, or garnishing, packed for export. ",
+    description:"products.category_1.product_6.desc",
   },
   {
-    title: "Potatoes",
+    title: "products.category_1.product_7.heading",
     image: potatoes,
-    description:
-      " Indian Potatoes are known for their excellent texture, versatility, and rich taste. Sourced from fertile soils, they undergo strict quality checks for uniform size, freshness, and high starch content. Perfect for boiling, frying, or baking, these potatoes offer nutrients and long shelf life. ",
+    description:"products.category_1.product_7.desc",
   }
 ]
 
@@ -112,13 +105,13 @@ export const culinaryProducts = [
     title: "Onion Powder",
     image: onionPowder,
     description:
-      " Sourced from the finest onions, our Onion Powder offers a rich, savory flavor that enhances soups, curries, sauces, and snacks. Made in India, it's free from additives, ensuring pure taste. Available in various sizes for bulk export and retail markets worldwide. ",
+      "Sourced from the finest onions, our Onion Powder offers a rich, savory flavor that enhances soups, curries, sauces, and snacks. Made in India, it's free from additives, ensuring pure taste. Available in various sizes for bulk export and retail markets worldwide.",
   },
   {
     title: "Garlic Powder",
     image: garlicPowder,
     description:
-      "Our premium Garlic Powder is made from sun-dried garlic, offering a robust, authentic flavor. 100% natural, with no preservatives, it’s perfect for Indian and international dishes, seasonings, marinades, and more. Rich in antioxidants, available in bulk for export. ",
+      "Our premium Garlic Powder is made from sun-dried garlic, offering a robust, authentic flavor. 100% natural, with no preservatives, it’s perfect for Indian and international dishes, seasonings, marinades, and more. Rich in antioxidants, available in bulk for export.",
   }
 ]
 
@@ -178,6 +171,6 @@ export const decorProducts = [
     title: "Powder wax",
     image: powderWax,
     description:
-      "Our premium Powder Wax is a high-quality, finely milled wax used for various industrial and cosmetic applications. It offers excellent adhesion, smooth texture, and superior performance in formulations. Ideal for coatings, polishes, and personal care products, our Powder Wax ensures consistency, durability, and a flawless finish. Sourced with precision, it meets international quality standards for reliable global supply. ",
+      "Our premium Powder Wax is a high-quality, finely milled wax used for various industrial and cosmetic applications. It offers excellent adhesion, smooth texture, and superior performance in formulations. Ideal for coatings, polishes, and personal care products, our Powder Wax ensures consistency, durability, and a flawless finish. Sourced with precision, it meets international quality standards for reliable global supply.",
   }
 ]

@@ -1,8 +1,11 @@
+import LanguageSelector from "./LanguageSelector";
 import Loco from "./Loco";
 import { NavLink } from "react-router";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 export default function NavBar() {
+    const { t } = useTranslation(['home']);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [activeLink, setActiveLink] = useState('Home');
 
@@ -17,68 +20,69 @@ export default function NavBar() {
 
     return (
         <nav className="bg-black shadow-md fixed w-full top-0 z-50 mb-4">
-            <div className="max-w-7xl mx-auto px-4 md:px-4 lg:px-24">
-                <div className="flex justify-between h-20">
-                    <div className="hidden md:flex items-center space-x-4">
+            <div className="max-w-7xl mx-auto px-6 md:px-4 lg:px-24">
+                <div className="flex justify-between h-20 md:gap-4 lg:gap-16">
+                    <div className="flex-shrink-0 flex items-center md:px-8">
+                        <Loco />
+                    </div>
+                    <div className="hidden lg:flex items-center space-x-4">
                         <NavLink
                             to="/"
-                            className={`${activeLink === 'Home' ? 'text-orange-300' : 'text-white'
+                            className={`${activeLink === t("navbar.home") ? 'text-orange-300' : 'text-white'
                                 } hover:text-orange-300 text-lg tracking-widest transition delay-100 duration-300 ease-in-out hover:scale-110`}
-                            onClick={() => handleLinkClick('Home')}
+                            onClick={() => handleLinkClick(t("navbar.home"))}
                         >
-                            Home
+                            {t("navbar.home")}
                         </NavLink>
                         <NavLink
                             to="/about"
-                            className={`${activeLink === 'About' ? 'text-orange-300' : 'text-white'
+                            className={`${activeLink === t("navbar.about") ? 'text-orange-300' : 'text-white'
                                 } hover:text-orange-300 text-lg tracking-widest transition delay-100 duration-300 ease-in-out hover:scale-110`}
-                            onClick={() => handleLinkClick('About')}
+                            onClick={() => handleLinkClick(t("navbar.about"))}
                         >
-                            About
+                            {t("navbar.about")}
                         </NavLink>
                         <NavLink
                             to="/services"
-                            className={`${activeLink === 'Services' ? 'text-orange-300' : 'text-white'
+                            className={`${activeLink === t("navbar.services") ? 'text-orange-300' : 'text-white'
                                 } hover:text-orange-300 text-lg tracking-widest transition delay-100 duration-300 ease-in-out hover:scale-110`}
-                            onClick={() => handleLinkClick('Services')}
+                            onClick={() => handleLinkClick(t("navbar.services"))}
                         >
-                            Services
+                            {t("navbar.services")}
                         </NavLink>
-                    </div>
-                    <div className="flex-shrink-0 flex items-center md:ml-12 md:px-8 lg:ml-16 lg:pl-16">
-                        <Loco />
-                    </div>
-                    <div className="hidden md:flex items-center space-x-4">
                         <NavLink
                             to="/products"
-                            className={`${activeLink === 'Products' ? 'text-orange-300' : 'text-white'
+                            className={`${activeLink === t("navbar.products") ? 'text-orange-300' : 'text-white'
                                 } hover:text-orange-300 text-lg tracking-widest transition delay-100 duration-300 ease-in-out hover:scale-110`}
-                            onClick={() => handleLinkClick('Products')}
+                            onClick={() => handleLinkClick(t("navbar.products"))}
                         >
-                            Products
+                            {t("navbar.products")}
                         </NavLink>
                         <NavLink
                             to="/testimonials"
-                            className={`${activeLink === 'Testimonials' ? 'text-orange-300' : 'text-white'
+                            className={`${activeLink === t("navbar.testimonials") ? 'text-orange-300' : 'text-white'
                                 } hover:text-orange-300 text-lg tracking-widest transition delay-100 duration-300 ease-in-out hover:scale-110`}
-                            onClick={() => handleLinkClick('Testimonials')}
+                            onClick={() => handleLinkClick(t("navbar.testimonials"))}
                         >
-                            Testimonials
+                            {t("navbar.testimonials")}
                         </NavLink>
                         <NavLink
                             to="/contact"
-                            className={`${activeLink === 'Contact' ? 'text-orange-300' : 'text-white'
+                            className={`${activeLink === t("navbar.contact") ? 'text-orange-300' : 'text-white'
                                 } hover:text-orange-300 text-lg tracking-widest transition delay-100 duration-300 ease-in-out hover:scale-110`}
-                            onClick={() => handleLinkClick('Contact')}
+                            onClick={() => handleLinkClick(t("navbar.contact"))}
                         >
-                            Contact
+                            {t("navbar.contact")}
                         </NavLink>
                     </div>
-                    <div className="flex items-center md:hidden">
+                    <div className="flex flex-row items-center justify-end space-x-4 ml-auto">
+                        <LanguageSelector />
+                    </div>
+                    <div className="flex items-center lg:hidden">
                         <button
                             type="button"
                             onClick={toggleMenu}
-                            className="text-white hover:text-orange-300 focus:outline-none"
+                            className="text-white hover:text-orange-300 focus:outline-none ml-3"
                         >
                             <svg
                                 className="h-6 w-6"
@@ -97,9 +101,9 @@ export default function NavBar() {
                         </button>
                     </div>
                 </div>
-            </div> 
+            </div>
             {isMenuOpen && (
-                <div className="md:hidden bg-black">
+                <div className="lg:hidden bg-black">
                     <div className="px-4 pt-2 pb-3 space-y-1 sm:px-3">
                         <NavLink
                             to="/"
@@ -107,7 +111,7 @@ export default function NavBar() {
                                 } hover:text-orange-300 text-lg tracking-wider transition delay-100 duration-300 ease-in-out hover:scale-110`}
                             onClick={() => handleLinkClick('Home')}
                         >
-                            Home
+                            {t("navbar.home")}
                         </NavLink>
                         <NavLink
                             to="/about"
@@ -115,7 +119,7 @@ export default function NavBar() {
                                 } hover:text-orange-300 text-lg tracking-wider transition delay-100 duration-300 ease-in-out hover:scale-110`}
                             onClick={() => handleLinkClick('About')}
                         >
-                            About
+                            {t("navbar.about")}
                         </NavLink>
                         <NavLink
                             to="/services"
@@ -123,7 +127,7 @@ export default function NavBar() {
                                 } hover:text-orange-300 text-lg tracking-wider transition delay-100 duration-300 ease-in-out hover:scale-110`}
                             onClick={() => handleLinkClick('Services')}
                         >
-                            Services
+                            {t("navbar.services")}
                         </NavLink>
                         <NavLink
                             to="/products"
@@ -131,23 +135,23 @@ export default function NavBar() {
                                 } hover:text-orange-300 text-lg tracking-wider transition delay-100 duration-300 ease-in-out hover:scale-110`}
                             onClick={() => handleLinkClick('Products')}
                         >
-                            Products
+                            {t("navbar.products")}
                         </NavLink>
                         <NavLink
                             to="/testimonials"
-                            className={`block ${activeLink === 'Testimonials' ? 'text-orange-300' : 'text-white'
+                            className={`block ${activeLink === t("navbar.testimonials") ? 'text-orange-300' : 'text-white'
                                 } hover:text-orange-300 text-lg tracking-wider transition delay-100 duration-300 ease-in-out hover:scale-110`}
-                            onClick={() => handleLinkClick('Testimonials')}
+                            onClick={() => handleLinkClick(t("navbar.testimonials"))}
                         >
-                            Testimonials
+                            {t("navbar.testimonials")}
                         </NavLink>
                         <NavLink
                             to="/contact"
-                            className={`block ${activeLink === 'Contact' ? 'text-orange-300' : 'text-white'
+                            className={`block ${activeLink === t("navbar.contact") ? 'text-orange-300' : 'text-white'
                                 } hover:text-orange-300 text-lg tracking-wider transition delay-100 duration-300 ease-in-out hover:scale-110`}
-                            onClick={() => handleLinkClick('Contact')}
+                            onClick={() => handleLinkClick(t("navbar.contact"))}
                         >
-                            Contact
+                            {t("navbar.contact")}
                         </NavLink>
                     </div>
                 </div>
