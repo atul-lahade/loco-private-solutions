@@ -1,6 +1,7 @@
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { culinaryProducts, decorProducts, spicesProducts, vegetableProducts } from "~/utils";
 import { useEffect, useState } from "react";
+import { NavLink } from "react-router";
 
 export function ImageSlider() {
   const slides = [
@@ -27,12 +28,14 @@ export function ImageSlider() {
 
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 text-center">
-      <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#799AA3]">
-        <span>Our Products</span>
-        <div className="mt-2 flex justify-center">
-          <hr aria-hidden="true" role="separator" className="border-t-2 border-gray-300 w-1/6" />
-        </div>
-      </h2>
+      <NavLink to="/products">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#799AA3]">
+          <span>Our Products</span>
+          <div className="mt-2 flex justify-center">
+            <hr aria-hidden="true" role="separator" className="border-t-2 border-gray-300 w-1/6" />
+          </div>
+        </h2>
+      </NavLink>
       <div className="max-w-[1400px] h-full sm:h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px] w-11/12 sm:w-3/4 md:w-2/3 lg:w-1/2 xl:w-2/5 m-auto relative group flex flex-col items-center sm:mt-14 md:mt-16 lg:mt-16 xl:mt-20 lg:-mb-28">
         <div style={{ backgroundImage: `url(${slides[currentSlide].url})` }}
           className="w-full h-64 sm:h-72 md:h-80 lg:h-96 xl:h-[28rem] rounded-2xl bg-center bg-cover duration-500">

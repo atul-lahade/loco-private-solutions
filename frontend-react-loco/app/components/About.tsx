@@ -40,14 +40,14 @@ export default function About() {
                             <img className="w-28 h-28 rounded-3xl group-hover:scale-105 transition duration-300 ease-in-out" src={missionImg} alt="Mission image" />
                             <div className="text-center lg:text-left">
                                 <h3 className="text-2xl font-bold text-[#40545a] mb-3">OUR MISSION</h3>
-                                <p className="text-gray-500 text-base leading-relaxed">To deliver premium agricultural produce and artisanal decor, sharing India’s rich culture with discerning customers worldwide.</p>
+                                <p className="text-gray-500 text-base leading-relaxed">Our mission at Loco Private Solutions is to empower businesses by providing exceptional export services that bridge local strengths with global opportunities. We are committed to delivering reliable, innovative, and customized solutions that enhance trade efficiency, support economic development, and build lasting relationships with our clients and partners across the world.</p>
                             </div>
                         </div>
                         <div className="flex flex-row items-center lg:items-start gap-4">
                             <img className="w-28 h-28 rounded-3xl group-hover:scale-105 transition duration-300 ease-in-out" src={visionImg} alt="Vision image" />
                             <div className="text-center lg:text-left">
                                 <h3 className="text-2xl font-bold text-[#40545a] mb-3">OUR VISION</h3>
-                                <p className="text-gray-500 text-base leading-relaxed">Bringing India’s finest flavors and craftsmanship to the world, we strive to unite authenticity, quality, and heritage.</p>
+                                <p className="text-gray-500 text-base leading-relaxed">To be a globally recognized leader in export solutions, seamlessly connecting local expertise with international markets, fostering sustainable growth, and creating value for our clients and partners worldwide.</p>
                             </div>
                         </div>
                     </div>
@@ -108,7 +108,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className="flex  px-8 md:px-12 lg:px-16">
-                    <p className="text-justify text-gray-600">We are a team driven by a passion for sharing India's rich heritage with the world. Specializing in the export of premium agricultural produce, aromatic spices, and exquisite home decor, we take pride in delivering authenticity, quality, and craftsmanship. Our commitment to excellence ensures that every product reflects India's vibrant culture and unmatched flavors. By building strong global connections and upholding the highest standards, we aim to be a trusted partner in bringing India's finest offerings to homes and businesses worldwide.</p>
+                    <p className="text-justify text-gray-600">Loco Private Solutions is dedicated to connecting local producers with global markets. We are passionate about empowering local communities by exporting high-quality, sustainable products. Our commitment to excellence, sustainability, and innovation allows us to bridge the gap between supply and demand while fostering economic growth.</p>
                 </div>
             </section>
             <section className="p-6 mb-12">
@@ -122,7 +122,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className="flex px-8 md:px-12 lg:px-16">
-                    <p className="text-justify text-gray-600">We specialize in exporting India's finest agricultural produce, aromatic spices, gourmet essentials, and exquisite home decor to global markets. With a strong focus on quality, authenticity, and craftsmanship, we ensure that our products meet international standards while preserving their cultural essence. From sourcing the freshest farm produce to curating handcrafted decor, we bridge the gap between India’s rich heritage and the world, delivering excellence with every shipment.</p>
+                    <p className="text-justify text-gray-600">We specialize in exporting a diverse range of products, including fresh vegetables, spices, home decor, and innovative solutions. By leveraging our strong network, market expertise, and customer-centric approach, we ensure seamless international trade. Our focus on quality, authenticity, and reliability enables us to deliver exceptional value to suppliers and buyers worldwide.</p>
                 </div>
             </section>
         </div>

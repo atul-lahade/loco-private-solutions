@@ -31,7 +31,7 @@ export default function HomeScreen() {
                                     <h4 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold mt-4 text-[#799AA3]">"Local Roots, Global Connections"</h4>
                                     <div className="mt-4">
                                         <p className="text-gray-700 text-base sm:text-lg md:text-xl">
-                                            <span>Loco Private Solutions specializes in exporting high-quality onions, vegetables, and other fresh produce to international clients. With a focus on quality and efficiency, we navigate the complexities of global trade to deliver top-notch products tailored to our customers' needs.</span>
+                                            <span>At Loco Private Solutions, we are committed to bridging the gap between local producers and global markets. Our mission is to empower local communities by exporting high-quality, sustainable products while solving global supply chain challenges.</span>
                                         </p>
                                     </div>
                                 </div>

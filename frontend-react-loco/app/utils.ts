@@ -20,6 +20,7 @@ import redOnion from "./assets/images/products/red-onion.jpeg";
 import tomatoPeel from "./assets/images/products/tomato-peel.jpeg";
 import tomatoPuree from "./assets/images/products/tomato-puree.jpeg";
 import whiteOnion from "./assets/images/products/white-onion.jpeg";
+import powderWax from "./assets/images/products/powder-wax.png";
 
 export const workingHours = [
     { day: "Monday", open: "9:00 AM", close: "5:00 PM" },
@@ -172,5 +173,11 @@ export const decorProducts = [
     image: plasticFlower,
     description:
       "Our Plastic Flowers from India are crafted to resemble real flowers, offering a maintenance-free decor solution. Made from high-quality, durable plastic, they are perfect for indoor and outdoor use. Available in various designs and colors, ideal for global export.",
+  },
+  {
+    title: "Powder wax",
+    image: powderWax,
+    description:
+      "Our premium Powder Wax is a high-quality, finely milled wax used for various industrial and cosmetic applications. It offers excellent adhesion, smooth texture, and superior performance in formulations. Ideal for coatings, polishes, and personal care products, our Powder Wax ensures consistency, durability, and a flawless finish. Sourced with precision, it meets international quality standards for reliable global supply. ",
   }
 ]

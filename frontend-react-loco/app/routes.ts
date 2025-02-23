@@ -8,5 +8,10 @@ export default [
         route("/services", "./components/Services.tsx"),
         route("/testimonials", "./components/Testimonials.tsx"),
         route("/contact", "./components/Contact.tsx"),
+        route("/services/ayurvedic", "./components/Services/AyurvedicConsultancy.tsx"),
+        route("/services/business", "./components/Services/BusinessConsultancy.tsx"),
+        route("/services/education", "./components/Services/Education.tsx"),
+        route("/services/info-tech", "./components/Services/InfoTech.tsx"),
+        route("/services/marketing", "./components/Services/MarketingResearch.tsx"),
     ])
 ] satisfies RouteConfig;
