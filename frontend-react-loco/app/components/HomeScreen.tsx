@@ -33,7 +33,7 @@ export default function HomeScreen() {
                                     <h4 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold mt-4 text-[#799AA3]">{t("home.companySlogan")}</h4>
                                     <div className="mt-4">
                                         <p className="text-gray-700 text-base sm:text-lg md:text-xl">
-                                            <span>{t("home.companyDescription")}</span>
+                                            <span>{t("home.companyDesc")}</span>
                                         </p>
                                     </div>
                                 </div>

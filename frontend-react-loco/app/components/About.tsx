@@ -27,12 +27,12 @@ export default function About() {
                             </div>
                             <a
                                 href="/products"
-                                className="px-6 py-3 bg-[#6a838f] hover:bg-[#3a5662] text-white font-medium rounded-lg shadow-mdtransition duration-300"
+                                className="px-6 py-3 bg-[#6a838f] hover:bg-[#3a5662] text-white font-medium rounded-lg shadow-md transition duration-300"
                             >
                                 {t("buttons.get_started")}
                             </a>
                         </div>
-                        <img className="lg:mx-0 mx-auto h-full rounded-3xl object-cover shadow-2xl transition-transform duration-300 transform hover:scale-110" src={aboutImg} alt="about Us image" />
+                        <img className="lg:mx-0 mx-auto h-full rounded-3xl object-cover drop-shadow-[0_10px_20px_rgba(121,154,163,0.5)] transition-transform duration-300 transform hover:scale-110" src={aboutImg} alt="about Us image" />
                     </div>
                 </div>
             </section>

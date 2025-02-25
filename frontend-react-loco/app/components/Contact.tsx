@@ -18,7 +18,7 @@ export default function ContactUs() {
     });
 
     const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-        const { name, value } = e.target;        
+        const { name, value } = e.target;
         setFormData((prevState) => ({
             ...prevState,
             [name]: value,
@@ -47,7 +47,7 @@ export default function ContactUs() {
                 <div>
                     <h2 className="text-4xl font-semibold text-[#799AA3] mb-4">{t("contact.sub_heading")}</h2>
                     <p className="text-gray-600 mb-6 leading-relaxed text-md">
-                    {t("contact.sub_desc")}
+                        {t("contact.sub_desc")}
                     </p>
                     <a href="https://wa.me/+919890533525" target="_blank" className="inline-flex items-center px-4 py-2 bg-[#455A64] text-white font-medium rounded hover:bg-[#3a5662] focus:outline-none">
                         <svg className="transition-all duration-300 group-hover:scale-110" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 71 72" fill="none">
@@ -118,18 +118,18 @@ export default function ContactUs() {
                             <h3 className="text-4xl font-extrabold text-dark-grey-900 font-display  text-[#799AA3] font-display">{t("contact.form.heading")}</h3>
                             <div className="flex flex-col gap-6">
                                 <label className="flex flex-col gap-2 text-sm font-medium text-dark-grey-600">
-                                {t("contact.form.name")}
+                                    {t("contact.form.name")}
                                     <input className="p-4 border border-solid outline-none rounded-xl placeholder:text-sm placeholder:font-medium placeholder:text-dark-grey-500 border-grey-300 focus:border-grey-600 focus:ring-2 focus:ring-grey-600 bg-white shadow-md" placeholder={t("contact.form.name_placeholder")} type="text" id="full-name"
-                                    name="fullName" 
-                                    onChange={handleInputChange} defaultValue={formData.fullName} required />
+                                        name="fullName"
+                                        onChange={handleInputChange} defaultValue={formData.fullName} required />
                                 </label>
                                 <label className="flex flex-col gap-2 text-sm font-medium text-dark-grey-600">
-                                {t("contact.form.email")}
+                                    {t("contact.form.email")}
                                     <input className="p-4 border border-solid outline-none rounded-xl placeholder:text-sm placeholder:font-medium placeholder:text-dark-grey-500 border-grey-300 focus:border-grey-600 focus:ring-2 focus:ring-grey-600 bg-white shadow-md" placeholder={t("contact.form.email_placeholder")} type="text" id="email"
-                                    name="email" onChange={handleInputChange} defaultValue={formData.email} required />
+                                        name="email" onChange={handleInputChange} defaultValue={formData.email} required />
                                 </label>
                                 <label className="flex flex-col gap-2 text-sm font-medium text-dark-grey-600">
-                                {t("contact.form.message")}
+                                    {t("contact.form.message")}
                                     <textarea className="p-4 border border-solid outline-none rounded-xl placeholder:text-sm placeholder:font-medium placeholder:text-dark-grey-500 border-grey-300 focus:border-grey-600 focus:ring-2 focus:ring-grey-600 bg-white shadow-md" placeholder={t("contact.form.message_placeholder")} id="message" name="message" onChange={handleInputChange} defaultValue={formData.message} required></textarea>
                                 </label>
                                 <button type="button" className="flex items-center justify-center py-4 text-center text-white px-7 rounded-2xl bg-[#6a838f] hover:bg-[#3a5662] focus:ring-4 focus:ring-purple-blue-100 transition duration-300" onClick={handleSubmit}>{t("buttons.submit_meg")}</button>

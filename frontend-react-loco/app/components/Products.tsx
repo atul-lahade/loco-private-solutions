@@ -13,7 +13,7 @@ export default function Products() {
                 </div>
                 <div className="mx-auto grid max-w-screen-lg grid-cols-1 gap-5 p-5 sm:grid-cols-2 md:grid-cols-3 lg:gap-10">
                     {vegetableProducts.map((product, index) => (
-                        <Product id={index} title={product.title} image={product.image} description={product.description} />
+                        <Product key={index.toString()} id={index} title={product.title} image={product.image} description={product.description} />
                     ))}
                 </div>
             </section>
@@ -23,7 +23,7 @@ export default function Products() {
                 </div>
                 <div className="mx-auto grid max-w-screen-lg grid-cols-1 gap-5 p-5 sm:grid-cols-2 md:grid-cols-3 lg:gap-10">
                     {culinaryProducts.map((product, index) => (
-                        <Product id={index} title={product.title} image={product.image} description={product.description} />
+                        <Product key={index.toString()} id={index} title={product.title} image={product.image} description={product.description} />
                     ))}
                 </div>
             </section>
@@ -33,7 +33,7 @@ export default function Products() {
                 </div>
                 <div className="mx-auto grid max-w-screen-lg grid-cols-1 gap-5 p-5 sm:grid-cols-2 md:grid-cols-3 lg:gap-10">
                     {spicesProducts.map((product, index) => (
-                        <Product id={index} title={product.title} image={product.image} description={product.description} />
+                        <Product key={index.toString()} id={index} title={product.title} image={product.image} description={product.description} />
                     ))}
                 </div>
             </section>
@@ -43,7 +43,7 @@ export default function Products() {
                 </div>
                 <div className="mx-auto grid max-w-screen-lg grid-cols-1 gap-5 p-5 sm:grid-cols-2 md:grid-cols-3 lg:gap-10">
                     {decorProducts.map((product, index) => (
-                        <Product id={index} title={product.title} image={product.image} description={product.description} />
+                        <Product key={index.toString()} id={index} title={product.title} image={product.image} description={product.description} />
                     ))}
                 </div>
             </section>

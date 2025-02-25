@@ -50,7 +50,7 @@ export function ImageSlider() {
           <BsChevronCompactRight size={30} onClick={nextSlide} />
         </div>
         <h3 className="text-gray-700 text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold mt-2 sm:mt-3 md:mt-4 lg:mt-5 xl:mt-6">
-          {slides[currentSlide].title}
+          {t(slides[currentSlide].title)}
         </h3>
       </div>
     </div>

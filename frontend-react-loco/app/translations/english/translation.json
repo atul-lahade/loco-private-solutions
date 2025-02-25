@@ -52,24 +52,29 @@
     "services": {
         "service_1": {
             "heading": "Marketing Research Reports",
-            "desc": "Insights-driven reports offering comprehensive market analysis, trends, and forecasts to empower informed decision-making."
+            "desc": "We deliver customized market research reports tailored to your industry, helping you make data-driven decisions."
         },
         "service_2": {
-            "heading": "Business Consultancy",
-            "desc": "Expert guidance in business strategy, growth planning, and operational efficiency to drive sustainable success."
+            "heading": "Supply Chain & Logistics",
+            "desc": "From sourcing to delivery, we handle the entire supply chain process to ensure efficiency and reliability."
         },
         "service_3": {
-            "heading": "Ayurvedic Consultancy",
-            "desc": "Personalized Ayurvedic health solutions by highly experienced Ayurveda doctors, blending ancient wisdom with modern expertise."
+            "heading": "IT Consulting",
+            "desc": "Leverage web developement, e-commerce, data insights, and cybersecurity to optimize operations, boost efficiency, and expand globally with our expert tech services."
         },
         "service_4": {
-            "heading": "Education Services",
-            "desc": "Tailored programs for learning enhancement, skill development, and academic success, designed by experienced educators."
+            "heading": "Business Consultancy",
+            "desc": "We assist businesses in scaling their operations and enhancing their market presence."
         },
         "service_5": {
-            "heading": "IT Consulting",
-            "desc": "Innovative technology solutions for digital transformation, IT strategy, and infrastructure optimization to boost business efficiency."
+            "heading": "Ayurvedic Consultancy",
+            "desc": "Our team of experienced doctors offers expert Ayurvedic consultations via video calls, along with medicinal product shipping."
+        },
+        "service_6": {
+            "heading": "Education Services",
+            "desc": "We offer specialized tutoring and training to help individuals enhance their knowledge and skills."
         }
+        
     },
     "products": {
         "category_1": {
