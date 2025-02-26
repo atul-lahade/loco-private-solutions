@@ -1,3 +1,5 @@
+import { ayurvedicRoute, businessRoute, educationRoute, infoTechRoute, marketingRoute, supplyChainRoute } from '~/utils';
+
 import { NavLink } from 'react-router';
 import ayurvedImg from '../assets/images/services/ayurved-consultancy.webp';
 import businessImg from '../assets/images/services/business-consultancy.webp';
@@ -11,10 +13,15 @@ export default function Services() {
     const { t } = useTranslation(['home']);
     return (
         <div className="flex flex-col min-h-screen font-inter mt-12 md:mt-16 lg:mt-20">
+            <div className="text-center px-4 sm:px-6 lg:px-8 mt-14">
+                <h1 className="text-3xl font-bold leading-tight sm:text-4xl xl:text-5xl from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent bg-gradient-to-r from-primary to-danger">
+                    {t("services.heading")}
+                </h1>
+            </div>
             <div className="flex-grow flex relative justify-center items-center">
                 <div className="container pb-24 sm:pb-24 lg:pb-36">
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 m-16 gap-x-8 gap-40 md:gap-y-48 lg:gap-y-40">
-                        <NavLink to="/services/marketing">
+                        <NavLink to={marketingRoute}>
                             <div className="relative cursor-pointer group">
                                 <div className="overflow-hidden rounded-2xl">
                                     <img src={marketImg} alt="Marketing" className="group-hover:scale-105 transition duration-300 ease-in-out" />
@@ -33,7 +40,7 @@ export default function Services() {
                                 </div>
                             </div>
                         </NavLink>
-                        <NavLink to="/services/supply-chain">
+                        <NavLink to={supplyChainRoute}>
                             <div className="relative cursor-pointer group">
                                 <div className="overflow-hidden rounded-2xl">
                                     <img src={supplyChainImg} alt="Supply Chain" className="group-hover:scale-105 transition duration-300 ease-in-out" />
@@ -51,7 +58,7 @@ export default function Services() {
                                 </div>
                             </div>
                         </NavLink>
-                        <NavLink to="/services/info-tech">
+                        <NavLink to={infoTechRoute}>
                             <div className="relative cursor-pointer group">
                                 <div className="overflow-hidden rounded-2xl">
                                     <img src={itImg} alt="Info Tech" className="group-hover:scale-105 transition duration-300 ease-in-out" />
@@ -68,7 +75,7 @@ export default function Services() {
                                 </div>
                             </div>
                         </NavLink>
-                        <NavLink to="/services/business">
+                        <NavLink to={businessRoute}>
                             <div className="relative cursor-pointer group">
                                 <div className="overflow-hidden rounded-2xl">
                                     <img src={businessImg} alt="Business" className="group-hover:scale-105 transition duration-300 ease-in-out" />
@@ -86,7 +93,7 @@ export default function Services() {
                                 </div>
                             </div>
                         </NavLink>
-                        <NavLink to="/services/ayurvedic">
+                        <NavLink to={ayurvedicRoute}>
                             <div className="relative cursor-pointer group">
                                 <div className="overflow-hidden rounded-2xl">
                                     <img src={ayurvedImg} alt="Ayurved" className="group-hover:scale-105 transition duration-300 ease-in-out" />
@@ -103,7 +110,7 @@ export default function Services() {
                                 </div>
                             </div>
                         </NavLink>
-                        <NavLink to="/services/education">
+                        <NavLink to={educationRoute}>
                             <div className="relative cursor-pointer group">
                                 <div className="overflow-hidden rounded-2xl">
                                     <img src={educationImg} alt="Education" className="group-hover:scale-105 transition duration-300 ease-in-out" />
@@ -120,7 +127,7 @@ export default function Services() {
                                 </div>
                             </div>
                         </NavLink>
-                        
+
                     </div>
                 </div>
             </div>

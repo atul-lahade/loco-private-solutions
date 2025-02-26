@@ -29,39 +29,39 @@ export default function LanguageSelector() {
         <div className="relative inline-block text-left">
             {/* Dropdown Button */}
             <button
-            onClick={() => setIsOpen(!isOpen)}
-            className="flex items-center space-x-2 px-2 py-1 border rounded-md shadow bg-white hover:bg-gray-100 cursor-pointer text-black"
+                onClick={() => setIsOpen(!isOpen)}
+                className="flex items-center space-x-2 px-2 py-1 border rounded-md shadow bg-white hover:bg-gray-100 cursor-pointer text-black"
             >
-            <img
-                src={`https://flagcdn.com/w40/${selected.code}.png`}
-                alt={selected.name}
-                className="w-4 h-3 object-cover rounded"
-            />
-            <span className="text-xs md:text-sm">{selected.name}</span>
-            <img
-                src={downArrow}
-                className={`w-3 h-3 transform transition-transform duration-200 ${isOpen ? 'rotate-180' : 'rotate-0'}`}
-            />
+                <img
+                    src={`https://flagcdn.com/w40/${selected.code}.png`}
+                    alt={selected.name}
+                    className="w-4 h-3 object-cover rounded"
+                />
+                <span className="text-xs md:text-sm">{selected.name}</span>
+                <img
+                    src={downArrow}
+                    className={`w-3 h-3 transform transition-transform duration-200 ${isOpen ? 'rotate-180' : 'rotate-0'}`}
+                />
             </button>
 
             {/* Dropdown Menu (Opens to Left) */}
             {isOpen && (
-            <div className="absolute left-0 mt-2 w-48 bg-white border rounded-md shadow-lg z-10">
-                {countries.map((country) => (
-                <div
-                    key={country.code}
-                    onClick={() => onClickLanguageChange(country)}
-                    className="flex items-center space-x-2 px-2 py-1 cursor-pointer hover:bg-gray-200 text-black"
-                >
-                    <img
-                    src={`https://flagcdn.com/w40/${country.code}.png`}
-                    alt={country.name}
-                    className="w-4 h-3 object-cover rounded"
-                    />
-                    <span className="text-xs md:text-sm">{country.name}</span>
+                <div className="absolute left-0 mt-2 w-48 bg-white border rounded-md shadow-lg z-10">
+                    {countries.map((country) => (
+                        <div
+                            key={country.code}
+                            onClick={() => onClickLanguageChange(country)}
+                            className="flex items-center space-x-2 px-2 py-1 cursor-pointer hover:bg-gray-200 text-black"
+                        >
+                            <img
+                                src={`https://flagcdn.com/w40/${country.code}.png`}
+                                alt={country.name}
+                                className="w-4 h-3 object-cover rounded"
+                            />
+                            <span className="text-xs md:text-sm">{country.name}</span>
+                        </div>
+                    ))}
                 </div>
-                ))}
-            </div>
             )}
         </div>
     )

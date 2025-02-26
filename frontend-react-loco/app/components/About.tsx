@@ -3,6 +3,7 @@ import certifiedImg from "../assets/images/about/certified.png";
 import commitmentImg from "../assets/images/about/commitment.png";
 import innovationImg from "../assets/images/about/innovation.png";
 import missionImg from "../assets/images/about/mission.png";
+import { productsRoute } from "~/utils";
 import qualityImg from "../assets/images/about/quality.png";
 import reliabilityImg from "../assets/images/about/reliability.png";
 import sustainabilityImg from "../assets/images/about/sustainability.png";
@@ -14,7 +15,7 @@ import whoWeAreImg from "../assets/images/about/who-we-are.png";
 
 export default function About() {
     const { t } = useTranslation(['home']);
-    
+
     return (
         <div className="font-poppins">
             <section className="pt-32 px-10 pb-16 relative">
@@ -26,7 +27,7 @@ export default function About() {
                                 <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">{t("about.desc")}</p>
                             </div>
                             <a
-                                href="/products"
+                                href={productsRoute}
                                 className="px-6 py-3 bg-[#6a838f] hover:bg-[#3a5662] text-white font-medium rounded-lg shadow-md transition duration-300"
                             >
                                 {t("buttons.get_started")}
@@ -70,7 +71,7 @@ export default function About() {
                             <img className="mx-2 my-2 w-12 h-12 md:w-14 md:h-14" src={qualityImg} alt="Quality assurance" />
                             <h4 className="text-xl md:text-2xl font-bold mb-3 text-[#40545a]">{t("about.values.value_1.heading")}</h4>
                             <p className="text-gray-500 text-sm md:text-base"><strong><em>{t("about.values.value_1.slogan")}<br /></em></strong>
-                            {t("about.values.value_1.desc")}</p>
+                                {t("about.values.value_1.desc")}</p>
                         </div>
                         <div className="flex flex-col items-center text-center p-4 md:p-6 bg-white rounded-lg shadow-md">
                             <img className="mx-2 my-2 w-12 h-12 md:w-14 md:h-14" src={reliabilityImg} alt="Reliability" />

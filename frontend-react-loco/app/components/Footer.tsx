@@ -1,3 +1,5 @@
+import { aboutRoute, contactRoute, homeRoute, productsRoute, servicesRoute } from "~/utils";
+
 import { useTranslation } from "react-i18next";
 
 export default function Footer() {
@@ -6,11 +8,11 @@ export default function Footer() {
         <>
             <footer className="flex flex-col space-y-3 z-50 justify-center border-t border-slate-900/5 py-4 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700">
                 <nav className="flex justify-center flex-wrap gap-6 text-white font-medium">
-                    <a className="hover:text-orange-300 transition delay-100 duration-100 ease-in-out hover:scale-110" href="/">{t("navbar.home")}</a>
-                    <a className="hover:text-orange-300 transition delay-100 duration-100 ease-in-out hover:scale-110" href="/about">{t("navbar.about")}</a>
-                    <a className="hover:text-orange-300 transition delay-100 duration-100 ease-in-out hover:scale-110" href="/services">{t("navbar.services")}</a>
-                    <a className="hover:text-orange-300 transition delay-100 duration-100 ease-in-out hover:scale-110" href="/products">{t("navbar.products")}</a>
-                    <a className="hover:text-orange-300 transition delay-100 duration-100 ease-in-out hover:scale-110" href="/contact">{t("navbar.contact")}</a>
+                    <a className="hover:text-orange-300 transition delay-100 duration-100 ease-in-out hover:scale-110" href={homeRoute}>{t("navbar.home")}</a>
+                    <a className="hover:text-orange-300 transition delay-100 duration-100 ease-in-out hover:scale-110" href={aboutRoute}>{t("navbar.about")}</a>
+                    <a className="hover:text-orange-300 transition delay-100 duration-100 ease-in-out hover:scale-110" href={servicesRoute}>{t("navbar.services")}</a>
+                    <a className="hover:text-orange-300 transition delay-100 duration-100 ease-in-out hover:scale-110" href={productsRoute}>{t("navbar.products")}</a>
+                    <a className="hover:text-orange-300 transition delay-100 duration-100 ease-in-out hover:scale-110" href={contactRoute}>{t("navbar.contact")}</a>
                 </nav>
 
                 <div className="flex justify-center space-x-5">

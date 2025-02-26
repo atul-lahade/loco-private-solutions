@@ -32,6 +32,19 @@ export const workingHours = [
     { day: "Sunday", open: "Closed", close: "" },
   ];
 
+  export const homeRoute = "/";
+  export const aboutRoute = "/about";
+  export const productsRoute = "/products";
+  export const servicesRoute = "/services";
+  export const contactRoute = "/contact";
+  export const testimonialsRoute = "/testimonials";
+  export const ayurvedicRoute = "/services/ayurvedic";
+  export const businessRoute = "/services/business";
+  export const educationRoute = "/services/education";
+  export const infoTechRoute = "/services/info-tech";
+  export const marketingRoute = "/services/marketing";
+  export const supplyChainRoute = "/services/supply-chain"; 
+
 export const vegetableProducts = [
   {
     title: "products.category_1.product_1.heading",

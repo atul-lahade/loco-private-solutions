@@ -78,7 +78,7 @@ export default function Testimonials() {
                         </div>
 
                         <p className="mt-4 text-gray-700">
-                        {t("testimonial.review_1.review")}
+                            {t("testimonial.review_1.review")}
                         </p>
                     </blockquote>
                     <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
@@ -145,7 +145,7 @@ export default function Testimonials() {
                             </div>
                         </div>
                         <p className="mt-4 text-gray-700">
-                        {t("testimonial.review_2.review")}
+                            {t("testimonial.review_2.review")}
                         </p>
                     </blockquote>
                     <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
@@ -212,7 +212,7 @@ export default function Testimonials() {
                             </div>
                         </div>
                         <p className="mt-4 text-gray-700">
-                        {t("testimonial.review_3.review")}
+                            {t("testimonial.review_3.review")}
                         </p>
                     </blockquote>
                 </div>

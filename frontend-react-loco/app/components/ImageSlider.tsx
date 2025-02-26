@@ -1,5 +1,5 @@
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
-import { culinaryProducts, decorProducts, spicesProducts, vegetableProducts } from "~/utils";
+import { culinaryProducts, decorProducts, productsRoute, spicesProducts, vegetableProducts } from "~/utils";
 import { useEffect, useState } from "react";
 
 import { NavLink } from "react-router";
@@ -31,7 +31,7 @@ export function ImageSlider() {
 
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 text-center">
-      <NavLink to="/products">
+      <NavLink to={productsRoute}>
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#799AA3]">
           <span>Our Products</span>
           <div className="mt-2 flex justify-center">

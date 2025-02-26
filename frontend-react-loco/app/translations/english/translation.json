@@ -50,6 +50,7 @@
         "what_desc": "We specialize in exporting a diverse range of products, including fresh vegetables, spices, home decor, and innovative solutions. By leveraging our strong network, market expertise, and customer-centric approach, we ensure seamless international trade. Our focus on quality, authenticity, and reliability enables us to deliver exceptional value to suppliers and buyers worldwide."
     },
     "services": {
+        "heading": "Our Services – Empowering Your Business Growth",
         "service_1": {
             "heading": "Marketing Research Reports",
             "desc": "We deliver customized market research reports tailored to your industry, helping you make data-driven decisions."
@@ -74,7 +75,6 @@
             "heading": "Education Services",
             "desc": "We offer specialized tutoring and training to help individuals enhance their knowledge and skills."
         }
-        
     },
     "products": {
         "category_1": {
@@ -223,16 +223,16 @@
         "explore": "Explore",
         "submit_meg": "Submit Message"
     },
-    "video_player":{
+    "video_player": {
         "heading": "Export Your Way to Success",
-        "desc":" Providing top-notch export services for your business"
+        "desc": " Providing top-notch export services for your business"
     },
     "navbar": {
         "home": "Home",
         "about": "About",
         "services": "Services",
         "products": "Products",
-        "testimonials":"Testimonials",
+        "testimonials": "Testimonials",
         "contact": "Contact"
     }
 }
