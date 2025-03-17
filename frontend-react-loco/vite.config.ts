@@ -1,11 +1,12 @@
-import reactRefresh from '@vitejs/plugin-react-refresh';
-import { defineConfig } from 'vite';
-import tsconfigPaths from 'vite-tsconfig-paths';
-import tailwindcss from 'tailwindcss';
 import autoprefixer from 'autoprefixer';
+import { defineConfig } from 'vite';
+import reactRefresh from '@vitejs/plugin-react-refresh';
 import { reactRouter } from '@react-router/dev/vite';
+import tailwindcss from 'tailwindcss';
+import tsconfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig({
+  base: 'https://locopsglobal.com/',
   css: {
     postcss: {
       plugins: [tailwindcss, autoprefixer],
@@ -23,3 +24,4 @@ export default defineConfig({
     chunkSizeWarningLimit: 500, // Avoid chunk size warnings
   },
 });
+
