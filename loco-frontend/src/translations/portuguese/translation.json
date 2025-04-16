@@ -1,0 +1,367 @@
+{
+    "home": {
+        "companyName": "Loco Private Solutions",
+        "companySlogan": "\"Raízes Locais, Conexões Globais\"",
+        "companyDesc": "Na Loco Private Solutions, estamos comprometidos em preencher a lacuna entre produtores locais e mercados globais. Nossa missão é capacitar comunidades locais exportando produtos de alta qualidade e sustentáveis, enquanto resolvemos desafios da cadeia de suprimentos global."
+    },
+    "about": {
+        "heading": "Espalhando o Sabor da Índia, Um Carregamento por Vez",
+        "desc": "Somos a Loco Private Solutions, uma exportadora líder de produtos de alta qualidade em todo o mundo. Especializamo-nos em fornecer serviços de primeira linha aos nossos clientes, garantindo entrega pontual e eficiente. Entre em contato hoje para saber mais sobre como podemos ajudá-lo com suas necessidades de exportação.",
+        "mission_heading": "NOSSA MISSÃO",
+        "mission_desc": "Nossa missão na Loco Private Solutions é capacitar empresas fornecendo serviços de exportação excepcionais que conectam forças locais com oportunidades globais. Estamos comprometidos em fornecer soluções confiáveis, inovadoras e personalizadas que aumentam a eficiência comercial, apoiam o desenvolvimento econômico e constroem relacionamentos duradouros com nossos clientes e parceiros em todo o mundo.",
+        "vision_heading": "NOSSA VISÃO",
+        "vision_desc": "Ser um líder globalmente reconhecido em soluções de exportação, conectando perfeitamente expertise local com mercados internacionais, promovendo crescimento sustentável e criando valor para nossos clientes e parceiros em todo o mundo.",
+        "values": {
+            "heading": "Valores",
+            "value_1": {
+                "heading": "Melhores Serviços de Qualidade",
+                "slogan": "\"Excelência em Cada Grão\"",
+                "desc": "Garantimos qualidade, frescor e autenticidade de primeira linha em cada produto."
+            },
+            "value_2": {
+                "heading": "Ampla Experiência em Comércio de Alimentos",
+                "slogan": "\"Expertise Global, Comércio Perfeito\"",
+                "desc": "Décadas de experiência em sourcing e exportação de produtos alimentícios premium."
+            },
+            "value_3": {
+                "heading": "Serviços Certificados e Legalmente Aprovados",
+                "slogan": "\"Qualidade Certificada, Práticas Transparentes\"",
+                "desc": "Totalmente em conformidade com regulamentos internacionais de segurança alimentar e comércio."
+            },
+            "value_4": {
+                "heading": "Compromisso e Adesão ao Tempo",
+                "slogan": "\"Frescor Entregue no Prazo\"",
+                "desc": "Logística confiável garante remessas globais pontuais e eficientes."
+            },
+            "value_5": {
+                "heading": "Inovação em Alimentos e Comércio",
+                "slogan": "\"Soluções Modernas, Sabores Atemporais\"",
+                "desc": "Processamento, embalagem e práticas comerciais sustentáveis de ponta."
+            },
+            "value_6": {
+                "heading": "Sustentabilidade e Sourcing Ético",
+                "slogan": "\"Sourcing Responsável, Futuro Melhor\"",
+                "desc": "Apoiando agricultores e práticas ecológicas para um comércio alimentar sustentável."
+            }
+        },
+        "who": "Quem Somos?",
+        "who_desc": "A Loco Private Solutions dedica-se a conectar produtores locais com mercados globais. Somos apaixonados por capacitar comunidades locais exportando produtos de alta qualidade e sustentáveis. Nosso compromisso com excelência, sustentabilidade e inovação nos permite preencher a lacuna entre oferta e demanda, promovendo crescimento econômico.",
+        "what": "O Que Fazemos?",
+        "what_desc": "Especializamo-nos em exportar uma ampla gama de produtos, incluindo vegetais frescos, especiarias, decoração para casa e soluções inovadoras. Ao aproveitar nossa forte rede, expertise de mercado e abordagem centrada no cliente, garantimos comércio internacional perfeito. Nosso foco em qualidade, autenticidade e confiabilidade nos permite fornecer valor excepcional para fornecedores e compradores em todo o mundo."
+    },
+    "services": {
+        "heading": "Nossos Serviços – Capacitando Seu Crescimento Empresarial",
+        "service_1": {
+            "heading": "Relatórios de Pesquisa de Marketing",
+            "desc": "Fornecemos relatórios de pesquisa de mercado personalizados adaptados ao seu setor, ajudando você a tomar decisões baseadas em dados."
+        },
+        "service_2": {
+            "heading": "Cadeia de Suprimentos e Logística",
+            "desc": "Do sourcing à entrega, gerenciamos todo o processo da cadeia de suprimentos para garantir eficiência e confiabilidade."
+        },
+        "service_3": {
+            "heading": "Consultoria em TI",
+            "desc": "Aproveite desenvolvimento web, comércio eletrônico, insights de dados e cibersegurança para otimizar operações, aumentar eficiência e expandir globalmente com nossos serviços técnicos especializados."
+        },
+        "service_4": {
+            "heading": "Consultoria Empresarial",
+            "desc": "Ajudamos empresas a escalar suas operações e melhorar sua presença no mercado."
+        },
+        "service_5": {
+            "heading": "Consultoria Ayurvédica",
+            "desc": "Nossa equipe de médicos experientes oferece consultas ayurvédicas especializadas via videochamada, junto com envio de produtos medicinais."
+        },
+        "service_6": {
+            "heading": "Serviços Educacionais",
+            "desc": "Oferecemos tutoria e treinamento especializados para ajudar indivíduos a aprimorar seus conhecimentos e habilidades."
+        }
+    },
+    "marketing": {
+        "heading": "Insights de Mercado que Impulsionam o Sucesso",
+        "desc": "Tome decisões empresariais informadas com relatórios de pesquisa de mercado personalizados, cobrindo tendências do setor, análise de concorrentes, insights de clientes e previsão de demanda para crescimento estratégico.",
+        "service_1": {
+            "heading": "Tendências e Análise do Setor",
+            "desc": "Mantenha-se à frente com insights baseados em dados sobre tendências emergentes do setor, mudanças de mercado e oportunidades de crescimento, ajudando você a se adaptar e inovar em um cenário empresarial em rápida evolução."
+        },
+        "service_2": {
+            "heading": "Benchmarking de Concorrentes",
+            "desc": "Analise pontos fortes, fracos e posicionamento de mercado de seus concorrentes para refinar sua estratégia, melhorar ofertas e ganhar vantagem competitiva em seu setor."
+        },
+        "service_3": {
+            "heading": "Insights de Comportamento do Cliente",
+            "desc": "Entenda preferências, padrões de compra e fatores de decisão dos clientes para melhorar engajamento, otimizar estratégias de marketing e aprimorar ofertas de produtos para impacto máximo."
+        },
+        "service_4": {
+            "heading": "Previsão de Demanda e Oferta",
+            "desc": "Preveja tendências de demanda e oferta do mercado com previsão baseada em dados, garantindo gerenciamento eficiente de estoque, estratégias de preços otimizadas e uma cadeia de suprimentos perfeita."
+        }
+    },
+    "supply_chain": {
+        "heading": "Logística Global Perfeita, Eficiente e Confiável",
+        "desc": "Do sourcing à entrega, otimizamos sua cadeia de suprimentos para máxima eficiência e confiabilidade.",
+        "service_1": {
+            "heading": "Sourcing de Produtos e Gestão de Fornecedores",
+            "desc": "Conectamos você com fornecedores confiáveis e gerenciamos relacionamentos com fornecedores para garantir sourcing de alta qualidade e compras econômicas."
+        },
+        "service_2": {
+            "heading": "Garantia de Qualidade e Soluções de Embalagem",
+            "desc": "Implementamos verificações rigorosas de qualidade e embalagem personalizada para proteger seus produtos e melhorar a satisfação do cliente."
+        },
+        "service_3": {
+            "heading": "Conformidade Alfandegária e Regulatória",
+            "desc": "Garantimos comércio internacional sem complicações gerenciando documentação alfandegária, verificações de conformidade e aprovações regulatórias."
+        },
+        "service_4": {
+            "heading": "Suporte a Envio e Logística Global",
+            "desc": "Do armazenamento à entrega final, otimizamos sua rede logística para remessas globais suaves e pontuais."
+        }
+    },
+    "it_consulting": {
+        "heading": "Soluções de TI Inteligentes para Comércio Global Perfeito",
+        "desc": "Impulsione seu negócio de exportação com soluções de TI personalizadas, desde automação e plataformas de comércio eletrônico até insights baseados em IA e cibersegurança. Otimize operações, aumente eficiência e escale globalmente com nossos serviços técnicos especializados.",
+        "service_1": {
+            "heading": "Desenvolvimento Web React",
+            "desc": "Criamos soluções ReactJS dinâmicas, escaláveis e de alto desempenho com UIs inovadoras e experiências perfeitas para impulsionar seu crescimento empresarial. Vamos criar algo incrível juntos!"
+        },
+        "service_2": {
+            "heading": "Desenvolvimento Web .NET",
+            "desc": "Precisa de um aplicativo de nível empresarial? Nossos desenvolvedores .NET especializados criam soluções escaláveis e centradas no usuário para impulsionar seu negócio. Eleve operações com tecnologia .NET de ponta! Vamos inovar juntos."
+        },
+        "service_3": {
+            "heading": "Tecnologia de Comércio Eletrônico",
+            "desc": "Procurando lançar ou reformular sua plataforma de comércio eletrônico? Entregamos soluções escaláveis e de alto desempenho com as melhores taxas. Contrate nossos desenvolvedores certificados para construir sites e aplicativos superiores que impulsionam o sucesso!"
+        },
+        "service_4": {
+            "heading": "Integração de API",
+            "desc": "Aprimore seus aplicativos com APIs do Google, Gateways de Pagamento e integrações de Mídia Social para conectividade suave, transações seguras e funcionalidade avançada. Desbloqueie todo o potencial do seu aplicativo!"
+        },
+        "service_5": {
+            "heading": "Análise de Dados",
+            "desc": "Transforme dados brutos em insights acionáveis com nossas soluções avançadas de análise. De previsão de tendências a relatórios baseados em IA, ajudamos você a tomar decisões mais inteligentes e baseadas em dados para crescimento empresarial. Aproveite o poder dos dados hoje!"
+        },
+        "service_6": {
+            "heading": "Cibersegurança e Conformidade",
+            "desc": "Proteja seu negócio com soluções robustas de cibersegurança e conformidade. Da proteção de dados à adesão regulatória, garantimos operações seguras, perfeitas e em conformidade. Fique à frente das ameaças - mantenha-se em conformidade!"
+        }
+    },
+    "business_consulting": {
+        "heading": "Serviços de Consultoria Empresarial",
+        "desc": "Ajudamos empresas a escalar, otimizar operações e expandir globalmente com estratégias especializadas.",
+        "service_1": {
+            "heading": "Crescimento e Estratégia",
+            "desc": "Desenvolvemos estratégias empresariais baseadas em dados para ajudá-lo a escalar com eficiência, otimizar recursos e ficar à frente dos concorrentes."
+        },
+        "service_2": {
+            "heading": "Marketing Digital e Branding",
+            "desc": "Eleve sua marca com marketing digital direcionado, SEO e estratégias de branding que impulsionam engajamento e conversões."
+        },
+        "service_3": {
+            "heading": "Eficiência Operacional",
+            "desc": "Aumente a produtividade com otimização de processos, automação e melhorias de fluxo de trabalho personalizadas para sucesso empresarial."
+        },
+        "service_4": {
+            "heading": "Entrada e Expansão no Mercado",
+            "desc": "Entre em novos mercados com orientação especializada sobre expansão global, parcerias e conformidade regulatória."
+        }
+    },
+    "ayurvedic_consulting": {
+        "heading": "Cure-se Naturalmente com Consultoria Ayurvédica Especializada",
+        "desc": "Obtenha consultas ayurvédicas especializadas via videochamada, planos de saúde personalizados, recomendações de medicamentos fitoterápicos e envio seguro de produtos - tudo de médicos ayurvédicos experientes. Cure-se naturalmente, viva melhor!",
+        "service_1": {
+            "heading": "Consultas de Saúde Personalizadas",
+            "desc": "Consultas ayurvédicas virtuais individuais com médicos especialistas para diagnosticar desequilíbrios e criar planos de bem-estar personalizados para cura holística."
+        },
+        "service_2": {
+            "heading": "Recomendações de Medicamentos Fitoterápicos",
+            "desc": "Remédios e formulações fitoterápicos personalizados baseados em suas necessidades de saúde, garantindo cura segura e natural com sabedoria ayurvédica testada pelo tempo."
+        },
+        "service_3": {
+            "heading": "Orientação de Cura Tradicional e Holística",
+            "desc": "Equilibre mente, corpo e espírito com princípios ayurvédicos, conselhos dietéticos, ioga e recomendações de estilo de vida para bem-estar de longo prazo."
+        },
+        "service_4": {
+            "heading": "Envio Seguro de Produtos Ayurvédicos",
+            "desc": "Obtenha medicamentos ayurvédicos autênticos entregues em todo o mundo com embalagem segura e envio confiável, garantindo qualidade e pureza."
+        }
+    },
+    "education": {
+        "heading": "Serviços Educacionais – Aprenda, Cresça, Tenha Sucesso!",
+        "desc": "Capacite-se com tutoria e treinamento especializados para aprimorar seus conhecimentos e habilidades. Oferecemos orientação especializada em idiomas, matemática, programação e soluções de aprendizagem personalizadas.",
+        "service_1": {
+            "heading": "Tutoria em Idiomas Regionais",
+            "desc": "Melhore fluência, escrita e comunicação em seu idioma regional com sessões lideradas por especialistas adaptadas ao seu ritmo de aprendizagem. Perfeito para estudantes, profissionais e entusiastas de idiomas."
+        },
+        "service_2": {
+            "heading": "Acompanhamento em Matemática",
+            "desc": "Construa uma base matemática sólida com acompanhamento estruturado para todos os níveis, desde aritmética básica até técnicas avançadas de resolução de problemas."
+        },
+        "service_3": {
+            "heading": "Treinamento em Linguagens de Programação",
+            "desc": "Aprenda linguagens de programação em alta demanda como Python, Java e JavaScript através de treinamento prático e projetos do mundo real. Ideal para iniciantes e profissionais."
+        },
+        "service_4": {
+            "heading": "Suporte Educacional Personalizado",
+            "desc": "Obtenha tutoria personalizada baseada em suas necessidades únicas de aprendizagem - sejam acadêmicas, profissionais ou baseadas em habilidades - para garantir crescimento e sucesso máximos."
+        }
+    },
+    "products": {
+        "heading": "Nossos Produtos",
+        "category_1": {
+            "heading": "Especiarias e Vegetais Indianos de Qualidade para Exportação",
+            "product_1": {
+                "heading": "Cebola Vermelha",
+                "desc": "As Cebolas Vermelhas da Índia são conhecidas por sua cor vibrante, textura crocante e sabor ousado. Ricas em antioxidantes, vitaminas e minerais, são perfeitas para cozinhar, saladas e decoração. Embaladas com cuidado para exportação global, garantindo frescor e qualidade premium."
+            },
+            "product_2": {
+                "heading": "Chalotas para Picles",
+                "desc": "As Chalotas para Picles da Índia são cuidadosamente selecionadas por seu tamanho pequeno, textura crocante e sabor picante. Expertamente em conserva para preservar frescor e qualidade, ricas em vitaminas e antioxidantes. Embaladas em embalagem adequada para exportação, garantindo longa vida útil e qualidade superior."
+            },
+            "product_3": {
+                "heading": "Chalotas Podisu",
+                "desc": "As Chalotas Podisu são chalotas indianas de qualidade premium, conhecidas por seu sabor rico, doçura suave e aroma distinto. Cultivadas naturalmente, passam por verificações rigorosas de qualidade para frescor e durabilidade. Ideais para refogar, assar e conservar, são embaladas para exportação global."
+            },
+            "product_4": {
+                "heading": "Gengibre",
+                "desc": "O gengibre indiano é conhecido por seu aroma pungente, sabor picante e qualidade premium. Cultivado em solos férteis e rigorosamente testado para frescor e consistência, é rico em antioxidantes, vitaminas e minerais. Ideal para uso culinário, sucos e remédios, vem em embalagem para exportação para longa vida útil."
+            },
+            "product_5": {
+                "heading": "Alho",
+                "desc": "O Alho Indiano é renomado por seu sabor forte, aroma rico e alta potência. Rico em antioxidantes, vitaminas e minerais, oferece inúmeros benefícios à saúde. Perfeito para cozinhar, temperar e uso medicinal, vem em embalagem para exportação garantindo frescor e longa vida útil."
+            },
+            "product_6": {
+                "heading": "Cebola Branca",
+                "desc": "As Cebolas Brancas da Índia oferecem sabor suave, textura crocante e casca branca e lisa. Cuidadosamente colhidas e verificadas quanto à qualidade para frescor e tamanho uniforme, são ricas em vitaminas, antioxidantes e minerais. Perfeitas para consumo cru, cozimento ou decoração, embaladas para exportação."
+            },
+            "product_7": {
+                "heading": "Batatas",
+                "desc": "As Batatas Indianas são conhecidas por sua excelente textura, versatilidade e sabor rico. Sourced de solos férteis, passam por verificações rigorosas de qualidade para tamanho uniforme, frescor e alto teor de amido. Perfeitas para cozinhar, fritar ou assar, estas batatas oferecem nutrientes e longa vida útil."
+            }
+        },
+        "category_2": {
+            "heading": "Essenciais Gourmet e Criações Culinárias",
+            "product_1": {
+                "heading": "Purê de Tomate",
+                "desc": "Nosso Purê de Tomate premium é feito de tomates indianos frescos e selecionados à mão, oferecendo sabor rico e cor vibrante. Livre de aditivos e conservantes, garante sabor natural. Ideal para sopas, molhos e caris, é perfeito para residências e cozinhas comerciais em todo o mundo."
+            },
+            "product_2": {
+                "heading": "Casca de Tomate",
+                "desc": "A Casca de Tomate de grau premium da Índia é um produto versátil e ecológico, perfeito para processamento de alimentos e cosméticos. Rica em fibras e antioxidantes, oferece uma solução sustentável para formulações de produtos. Cuidadosamente processada para frescor e pureza, atendendo aos padrões globais de exportação."
+            },
+            "product_3": {
+                "heading": "Polpa de Manga",
+                "desc": "Experimente a riqueza das mangas indianas com nossa Polpa de Manga premium. Perfeita para sucos, sobremesas e smoothies, oferece sabor tropical autêntico. Processada para preservar frescor, sabor e doçura natural, ideal para criações culinárias globais."
+            },
+            "product_4": {
+                "heading": "Pedaços de Abacaxi",
+                "desc": "Frescos das regiões tropicais da Índia, nossos Pedaços de Abacaxi premium retêm doçura natural e sabor rico. Perfeitos para sobremesas, saladas e criações culinárias, são embalados sob controles rigorosos de qualidade para frescor e longa vida útil, ideais para mercados globais."
+            },
+            "product_5": {
+                "heading": "Batata Frita",
+                "desc": "Exportada da Índia, nossa Batata Frita premium crua é feita de batatas frescas e cuidadosamente selecionadas. Pronta para cozinhar e perfeita para fritar ou assar, oferece sabor e textura consistentes. Ideal para restaurantes, cadeias de alimentos e cozinhas domésticas, atendendo aos padrões internacionais de qualidade."
+            },
+            "product_6": {
+                "heading": "Pó de Cebola",
+                "desc": "Sourced das melhores cebolas, nosso Pó de Cebola oferece um sabor rico e salgado que realça sopas, caris, molhos e lanches. Feito na Índia, é livre de aditivos, garantindo sabor puro. Disponível em vários tamanhos para exportação a granel e mercados de varejo em todo o mundo."
+            },
+            "product_7": {
+                "heading": "Pó de Alho",
+                "desc": "Nosso Pó de Alho premium é feito de alho seco ao sol, oferecendo um sabor robusto e autêntico. 100% natural, sem conservantes, é perfeito para pratos indianos e internacionais, temperos, marinadas e mais. Rico em antioxidantes, disponível a granel para exportação."
+            }
+        },
+        "category_3": {
+            "heading": "Especiarias Aromáticas",
+            "product_1": {
+                "heading": "Cardamomo",
+                "desc": "Nosso Cardamomo Indiano premium, sourced das exuberantes plantações de Kerala, oferece um sabor rico e aromático perfeito tanto para sobremesas quanto para pratos salgados. Valorizado por suas propriedades digestivas e antioxidantes, está disponível em vagens inteiras ou em pó, garantindo frescor e qualidade."
+            },
+            "product_2": {
+                "heading": "Cominho (Jeera)",
+                "desc": "Sourced das melhores fazendas, nossas sementes de cominho premium adicionam um sabor rico e terroso a pratos como caris, sopas e ensopados. Conhecido por seus benefícios digestivos, esta especiaria aromática é perfeita para uso culinário e consumidores conscientes da saúde, um item essencial em toda cozinha."
+            },
+            "product_3": {
+                "heading": "Cravo",
+                "desc": "O Cravo é uma especiaria premium nativa da Índia, conhecida por seu sabor forte e aromático e benefícios à saúde. Perfeito para realçar caris, sobremesas e bebidas, também oferece propriedades antissépticas e digestivas. Um item essencial em cozinhas e armários de remédios, garantindo qualidade superior para exportação."
+            },
+            "product_4": {
+                "heading": "Pimenta Preta",
+                "desc": "Sourced das exuberantes fazendas da Índia, nossa pimenta preta adiciona sabor ousado e aromático e calor picante a qualquer prato. Rica em antioxidantes e propriedades anti-inflamatórias, é perfeita para cozinha cotidiana e receitas gourmet. Disponível em formas inteiras e em pó."
+            },
+            "product_5": {
+                "heading": "Mostarda",
+                "desc": "Nossa mostarda indiana premium traz um sabor rico e toque picante a qualquer prato. Rica em ácidos graxos ômega-3, vitaminas e minerais, é uma adição saudável e versátil à sua cozinha. Cuidadosamente selecionada e processada para atender aos padrões globais de qualidade."
+            }
+        },
+        "category_4": {
+            "heading": "Decoração para Casa e Jardim",
+            "product_1": {
+                "heading": "Decoração para Casa",
+                "desc": "Descubra nossa coleção de Decoração para Casa da Índia, apresentando almofadas artesanais, arte de parede elegante, esculturas únicas e têxteis premium. Feitas com materiais de alta qualidade e artesanato por artesãos qualificados, cada peça adiciona estilo e elegância a qualquer espaço. Perfeita para interiores modernos e tradicionais."
+            },
+            "product_2": {
+                "heading": "Vela",
+                "desc": "Nossas velas premium da Índia são feitas com cera de alta qualidade e pavios sem chumbo para uma queima limpa e duradoura. Disponível em várias formas, tamanhos e fragrâncias, estas velas elevam qualquer espaço. Cuidadosamente embaladas para exportação segura, são perfeitas para decoração de casa, presentes e eventos."
+            },
+            "product_3": {
+                "heading": "Flor de Plástico",
+                "desc": "Nossas Flores de Plástico da Índia são artesanadas para se assemelhar a flores reais, oferecendo uma solução de decoração sem manutenção. Feitas de plástico de alta qualidade e durável, são perfeitas para uso interno e externo. Disponível em vários designs e cores, ideal para exportação global."
+            },
+            "product_4": {
+                "heading": "Cera em Pó",
+                "desc": "Nossa Cera em Pó premium é uma cera de alta qualidade, finamente moída, usada para várias aplicações industriais e cosméticas. Oferece excelente adesão, textura suave e desempenho superior em formulações. Ideal para revestimentos, polimentos e produtos de cuidados pessoais, nossa Cera em Pó garante consistência, durabilidade e acabamento impecável. Sourced com precisão, atende aos padrões internacionais de qualidade para fornecimento global confiável."
+            }
+        }
+    },
+    "testimonial": {
+        "heading": "Leia avaliações confiáveis de nossos clientes",
+        "review_1": {
+            "company_name": "GreenHarvest Imports, EUA",
+            "review": "Importamos cebolas vermelhas e alho da LOCO Pvt há mais de um ano, e sua frescura e qualidade nunca decepcionam. Um fornecedor confiável para todas as nossas necessidades!"
+        },
+        "review_2": {
+            "company_name": "SpiceRoutes Foods, Canadá",
+            "review": "A qualidade de suas chalotas para picles e chalotas podisu é excepcional. Entregas consistentes e pontuais, e excelente atendimento ao cliente. Altamente recomendado!"
+        },
+        "review_3": {
+            "company_name": "EuroFresh Trading, Espanha",
+            "review": "De cebolas vermelhas a alho, cada produto que recebemos foi perfeitamente embalado e fresco. A LCOC Exports torna nossa cadeia de suprimentos suave e confiável!"
+        }
+    },
+    "contact": {
+        "heading": "Entre em Contato Conosco!",
+        "sub_heading": "Melhor ainda, veja-nos pessoalmente!",
+        "sub_desc": "Estamos aqui para ajudá-lo a encontrar os produtos perfeitos para suas necessidades. Se você tiver uma pergunta sobre nossas ofertas de exportação ou precisar de assistência, estamos a apenas uma mensagem de distância. Entre em contato hoje e vamos explorar como podemos trabalhar juntos para seu sucesso!",
+        "contact_us": "Entre em Contato Hoje",
+        "contact_us_desc": "Não hesite em entrar em contato se tiver alguma dúvida ou precisar de assistência. Estamos aqui para ajudar com todas as suas necessidades.",
+        "email": "E-mail",
+        "phone": "Telefone",
+        "location": "Localização",
+        "hrs": "Horário de Funcionamento",
+        "form": {
+            "heading": "Envie uma mensagem",
+            "name": "Nome Completo",
+            "name_placeholder": "Seu Nome Completo",
+            "email": "E-mail",
+            "email_placeholder": "Seu E-mail",
+            "message": "Mensagem",
+            "message_placeholder": "Sua Mensagem"
+        }
+    },
+    "buttons": {
+        "get_started": "Começar",
+        "whatsapp_connect": "Conectar no WhatsApp",
+        "explore": "Explorar",
+        "submit_meg": "Enviar Mensagem"
+    },
+    "video_player": {
+        "heading": "Exporte Seu Caminho para o Sucesso",
+        "desc": "Fornecendo serviços de exportação de primeira linha para seu negócio"
+    },
+    "navbar": {
+        "home": "Início",
+        "about": "Sobre",
+        "services": "Serviços",
+        "products": "Produtos",
+        "testimonials": "Depoimentos",
+        "contact": "Contato"
+    }
+}
