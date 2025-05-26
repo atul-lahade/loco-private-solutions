@@ -14,7 +14,7 @@ export default function Product(props: ProductProps) {
       <img
         className="w-full transform object-cover object-center transition duration-500 ease-in-out group-hover:scale-105 md:h-36 lg:h-48"
         src={props.image}
-        alt="blog"
+        alt={props.title}
       />
       <div className="flex items-center justify-center py-2 sm:px-6 lg:px-8">
         <h3 className="text-2xl text-[#799AA3] mt-4">{t(props.title)}</h3>

@@ -36,10 +36,8 @@ export default function ContactUs() {
       return;
     }
     var message = `Hello! I am ${formData.fullName} (${formData.email}). ${formData.message}`;
-    let url = `https://api.whatsapp.com/send/?phone=918793552829`;
-    // Appending the message to the URL by encoding it
+    let url = `https://api.whatsapp.com/send/?phone=919890533525`;
     url += `&text=${encodeURI(message)}&app_absent=0`;
-    // Open our newly created URL in a new tab to send the message
     window.open(url);
   }
 
